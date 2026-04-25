@@ -1,12 +1,12 @@
 # CV (Curriculum Vitae) workflow
 
-> **⚠️ Currently inactive.** `public/CV_Takahiro_Suzuki.pdf` is the original
-> Word-formatted PDF the user uploaded; the Markdown→PDF pipeline below is
-> kept as a future option but **`bash cv/build.sh` would overwrite the
-> original PDF — do not run it without confirming with the user.**
-
 The CV is maintained as a Markdown source of truth. The PDF served at
 `/CV_Takahiro_Suzuki.pdf` on the live site is a generated artifact.
+
+The visual design lives entirely in `cv-style.css` — A4 page geometry,
+typographic scale, color accents, table styles, and the bold/underlined
+name treatment are all defined there. Running `bash cv/build.sh`
+re-renders the PDF and overwrites `public/CV_Takahiro_Suzuki.pdf`.
 
 ## Files
 

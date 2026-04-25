@@ -1,39 +1,33 @@
 @page {
   size: A4;
-  margin: 18mm 18mm 18mm 18mm;
+  margin: 16mm 18mm 18mm 18mm;
 }
 
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
-html, body {
+html,
+body {
   font-family: "Helvetica Neue", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  color: #1a1a1a;
-  font-size: 10.5pt;
-  line-height: 1.45;
+  color: #1f2937;
+  font-size: 10pt;
+  line-height: 1.5;
   margin: 0;
   padding: 0;
   -webkit-print-color-adjust: exact;
   print-color-adjust: exact;
 }
 
-h1 {
-  font-size: 20pt;
-  font-weight: 700;
-  margin: 0 0 6pt 0;
-  letter-spacing: 0.2pt;
-  color: #0a2540;
-  text-decoration: underline;
-  text-decoration-thickness: 1.5pt;
-  text-underline-offset: 4pt;
-  padding-bottom: 0;
-}
+/* ───────── Header ───────── */
 
-/* Header block: photo + text side by side */
 .cv-header {
   display: flex;
   align-items: flex-start;
-  gap: 14mm;
-  margin-bottom: 6pt;
+  gap: 12mm;
+  margin: 0 0 14pt 0;
+  padding-bottom: 12pt;
+  border-bottom: 2.5px solid #0a2540;
 }
 
 .cv-header-text {
@@ -42,65 +36,140 @@ h1 {
 }
 
 .cv-portrait {
-  width: 32mm;
-  height: auto;
+  width: 30mm;
+  height: 36mm;
   flex-shrink: 0;
   border-radius: 2mm;
   object-fit: cover;
+  object-position: center top;
+  box-shadow: 0 2pt 6pt rgba(10, 37, 64, 0.15);
 }
 
-/* Pandoc wraps standalone images in <p>; neutralize its margins so the photo sits cleanly in the flex row */
 .cv-header > p {
   margin: 0;
   flex-shrink: 0;
 }
 
 .cv-doc-label {
-  font-size: 9pt;
-  letter-spacing: 2pt;
-  color: #64748b;
+  font-size: 8.5pt;
+  letter-spacing: 3pt;
+  color: #00b1d2;
   text-transform: uppercase;
-  margin: 0 0 2pt 0;
+  margin: 0 0 6pt 0;
+  font-weight: 700;
+}
+
+h1 {
+  font-family: "Helvetica Neue", "Hiragino Sans", system-ui, sans-serif;
+  font-size: 22pt;
+  font-weight: 800;
+  margin: 0 0 10pt 0;
+  letter-spacing: -0.3pt;
+  color: #0a2540;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5pt;
+  text-decoration-color: #00b1d2;
+  text-underline-offset: 5pt;
+  display: inline-block;
+}
+
+.cv-header-text p:not(.cv-doc-label) {
+  font-size: 9.5pt;
+  line-height: 1.55;
+  color: #475569;
+  margin: 0;
+}
+
+.cv-header-text p:not(.cv-doc-label) strong {
+  color: #0a2540;
   font-weight: 600;
 }
 
+/* ───────── Section headings ───────── */
+
 h2 {
-  font-size: 13pt;
+  font-family: "Helvetica Neue", "Hiragino Sans", system-ui, sans-serif;
+  font-size: 11pt;
   font-weight: 700;
   margin: 18pt 0 6pt 0;
   color: #0a2540;
-  border-bottom: 1px solid #cccccc;
-  padding-bottom: 2pt;
+  text-transform: uppercase;
+  letter-spacing: 1.5pt;
+  padding: 4pt 0 4pt 10pt;
+  border-left: 3pt solid #00b1d2;
+  background: linear-gradient(90deg, #f0f9ff 0%, transparent 60%);
   page-break-after: avoid;
 }
 
 h3 {
-  font-size: 11pt;
+  font-family: "Helvetica Neue", "Hiragino Sans", system-ui, sans-serif;
+  font-size: 10pt;
   font-weight: 700;
   margin: 10pt 0 4pt 0;
   color: #184274;
+  letter-spacing: 0.3pt;
   page-break-after: avoid;
 }
 
+/* ───────── Body text ───────── */
+
 p {
   margin: 4pt 0;
-  text-align: justify;
+  text-align: left;
+  hyphens: auto;
 }
 
-ul, ol {
+ul,
+ol {
   margin: 4pt 0;
-  padding-left: 20pt;
+  padding-left: 18pt;
 }
 
 li {
-  margin: 2pt 0;
+  margin: 3pt 0;
+  line-height: 1.5;
 }
+
+ol > li {
+  padding-left: 4pt;
+  page-break-inside: avoid;
+}
+
+ul li::marker {
+  color: #00b1d2;
+}
+
+ol li::marker {
+  color: #64748b;
+  font-weight: 600;
+}
+
+strong {
+  color: #0a2540;
+  font-weight: 600;
+}
+
+em {
+  font-style: italic;
+  color: #334155;
+}
+
+a {
+  color: #184274;
+  text-decoration: none;
+}
+
+hr {
+  display: none;
+}
+
+/* ───────── Tables ───────── */
 
 table {
   width: 100%;
   border-collapse: collapse;
-  margin: 6pt 0;
-  font-size: 10pt;
+  margin: 6pt 0 8pt 0;
+  font-size: 9.5pt;
   page-break-inside: auto;
 }
 
@@ -112,62 +181,67 @@ tr {
   page-break-inside: avoid;
 }
 
-th, td {
+th,
+td {
   text-align: left;
   vertical-align: top;
-  padding: 4pt 6pt;
-  border-bottom: 1px solid #e0e0e0;
+  padding: 5pt 8pt;
+  border-bottom: 1px solid #e2e8f0;
 }
 
 th {
-  background-color: #f4f6f8;
-  font-weight: 700;
-  border-bottom: 1.5px solid #0a2540;
+  background-color: #0a2540;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 0.4pt;
+  font-size: 8.5pt;
+  text-transform: uppercase;
+  border-bottom: none;
+  padding: 6pt 8pt;
 }
 
-th:first-child, td:first-child {
+th:first-child {
+  border-top-left-radius: 2pt;
+}
+
+th:last-child {
+  border-top-right-radius: 2pt;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f8fafc;
+}
+
+th:first-child,
+td:first-child {
   white-space: nowrap;
-}
-
-strong {
+  width: auto;
+  font-weight: 600;
   color: #0a2540;
 }
 
-em {
-  font-style: italic;
+/* ───────── Publication / lecture lists ───────── */
+
+h2 + ol,
+h3 + ol {
+  padding-left: 20pt;
 }
 
-hr {
-  border: none;
-  border-top: 1px solid #e0e0e0;
-  margin: 12pt 0;
+h2 + ol > li,
+h3 + ol > li {
+  margin: 5pt 0;
 }
 
-a {
-  color: #184274;
-  text-decoration: none;
+h3 + ol > li {
+  font-size: 9.5pt;
 }
 
-/* Header block right after H1 (the contact info) */
-h1 + p {
-  margin-top: 8pt;
-  font-size: 10pt;
-  line-height: 1.6;
-}
-
-/* Tighten lists for publications */
-h2 + ol li,
-h3 + ol li {
-  margin: 4pt 0;
-  text-align: left;
-}
-
-/* Avoid breaking inside individual publication entries */
-ol > li {
-  page-break-inside: avoid;
-}
-
-/* Title block alignment */
+/* Spacing after section dividers */
 header {
   margin-bottom: 0;
+}
+
+/* Inline link icon hint for journal references shown as italic */
+em {
+  font-style: italic;
 }

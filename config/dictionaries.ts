@@ -6,6 +6,7 @@ export const dictionaries = {
             about: 'About',
             career: 'Career',
             research: 'Research',
+            presentations: 'Presentations',
         },
         news: {
             title: 'News & Announcements',
@@ -126,6 +127,14 @@ export const dictionaries = {
                 }
             }
         },
+        presentations: {
+            title: 'Presentations',
+            subtitle: 'Selected presentations at international and domestic cardiovascular conferences, including invited symposium talks.',
+            tabInternational: 'International',
+            tabDomestic: 'Domestic',
+            tabInvited: 'Invited Lectures',
+            countSuffix: 'presentations',
+        },
         contact: {
             title: 'Contact',
             subtitle: 'Have a question or want to collaborate? Send a message below.',
@@ -157,6 +166,7 @@ export const dictionaries = {
             about: 'About',
             career: 'Career',
             research: 'Research',
+            presentations: 'Presentations',
         },
         news: {
             title: 'News & Announcements',
@@ -279,6 +289,14 @@ export const dictionaries = {
                     desc: '日々の臨床から得られた知見や稀な症例に関する報告、およびその他の学術的貢献についての論文。'
                 }
             }
+        },
+        presentations: {
+            title: 'Presentations',
+            subtitle: '国際学会・国内学会での発表およびシンポジウム招待講演の一覧です。',
+            tabInternational: '国際学会',
+            tabDomestic: '国内学会',
+            tabInvited: '招待講演',
+            countSuffix: '件',
         },
         contact: {
             title: 'Contact',

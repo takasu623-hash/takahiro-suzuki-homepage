@@ -29,6 +29,7 @@ export default function Navbar({ lang }: { lang: string }) {
           <a href="#about" className="nav-link">{dict.about}</a>
           <a href="#career" className="nav-link">{dict.career}</a>
           <a href="#research" className="nav-link">{dict.research}</a>
+          <a href="#presentations" className="nav-link">{dict.presentations}</a>
           <Link href={`/${targetLang}`} className="lang-toggle btn btn-outline" style={{ marginLeft: '1rem', padding: '0.4rem 0.8rem' }}>
             {currentLang === 'en' ? '日本語' : 'EN'}
           </Link>

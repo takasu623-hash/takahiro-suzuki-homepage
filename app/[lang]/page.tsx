@@ -4,6 +4,7 @@ import News from '@/components/News';
 import Books from '@/components/Books';
 import Career from '@/components/Career';
 import Research from '@/components/Research';
+import Presentations from '@/components/Presentations';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
@@ -18,6 +19,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
         <Books lang={lang} />
         <Career lang={lang} />
         <Research lang={lang} />
+        <Presentations lang={lang} />
         <Contact lang={lang} />
       </main>
       <Footer lang={lang} />

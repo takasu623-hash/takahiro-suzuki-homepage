@@ -49,3 +49,6 @@ next-env.d.ts
 # CV intermediate build artifacts (source = cv/cv-source.md, output = public/CV_Takahiro_Suzuki.pdf)
 /cv/cv.html
 /cv/cv.pdf
+
+# Claude Code personal local overrides (project settings.json is committed)
+/.claude/settings.local.json

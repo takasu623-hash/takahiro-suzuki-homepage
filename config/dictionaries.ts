@@ -17,6 +17,11 @@ export const dictionaries = {
                     link: 'https://pubmed.ncbi.nlm.nih.gov/41904791/'
                 },
                 {
+                    date: '2026-03-01',
+                    title: 'Contributed to 内科レジデントマニュアル 第10版 (Internal Medicine Resident Manual, 10th Ed.), published by Igaku-Shoin',
+                    link: 'https://www.igaku-shoin.co.jp/book/detail/114713'
+                },
+                {
                     date: '2026-03-10',
                     title: 'New paper published in JACC: Cardiovascular Interventions on nonfatal adverse events and subsequent mortality risk after PCI',
                     link: 'https://pubmed.ncbi.nlm.nih.gov/41837917/'
@@ -199,6 +204,11 @@ export const dictionaries = {
                     date: '2026-03-29',
                     title: 'Circulation: Cardiovascular Interventions に論文が掲載されました（J-PVAD：心原性ショックにおけるmicroaxial flow pump管理での出血・虚血性合併症と予後）',
                     link: 'https://pubmed.ncbi.nlm.nih.gov/41904791/'
+                },
+                {
+                    date: '2026-03-01',
+                    title: '医学書院『内科レジデントマニュアル 第10版』に分担執筆として参加しました',
+                    link: 'https://www.igaku-shoin.co.jp/book/detail/114713'
                 },
                 {
                     date: '2026-03-10',

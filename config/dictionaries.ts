@@ -32,6 +32,12 @@ export const dictionaries = {
             title: 'Books',
             items: [
                 {
+                    year: '2026',
+                    title: '内科レジデントマニュアル 第10版 (Internal Medicine Resident Manual, 10th Ed.)',
+                    publisher: '医学書院 (Igaku-Shoin)',
+                    link: 'https://www.igaku-shoin.co.jp/book/detail/114713'
+                },
+                {
                     year: '2025',
                     title: '循環器内科学レビュー 2025-\'26 (Cardiology Review 2025-26)',
                     publisher: '総合医学社 (Sogo Igaku-sha)',
@@ -209,6 +215,12 @@ export const dictionaries = {
         books: {
             title: 'Books',
             items: [
+                {
+                    year: '2026',
+                    title: '内科レジデントマニュアル 第10版',
+                    publisher: '医学書院',
+                    link: 'https://www.igaku-shoin.co.jp/book/detail/114713'
+                },
                 {
                     year: '2025',
                     title: '循環器内科学レビュー 2025-\'26',

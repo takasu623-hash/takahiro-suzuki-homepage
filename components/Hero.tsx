@@ -30,6 +30,14 @@ export default function Hero({ lang }: { lang: string }) {
                         <a href="#career" className="btn btn-outline">
                             {dict.btnCareer}
                         </a>
+                        <a
+                            href="/CV_Takahiro_Suzuki_2026_0420.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn btn-outline"
+                        >
+                            {dict.btnCV}
+                        </a>
                     </div>
                     <div className="hero-socials" style={{ marginTop: '24px', display: 'flex', gap: '16px', alignItems: 'center' }}>
                         <a href="https://x.com/SuzukiTtweet" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-text)', textDecoration: 'none', fontWeight: '500', display: 'flex', alignItems: 'center', gap: '8px' }}>

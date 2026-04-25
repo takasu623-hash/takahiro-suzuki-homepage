@@ -63,6 +63,7 @@ export const dictionaries = {
             description: 'I am engaged in clinical practice in cardiovascular medicine, while conducting clinical research on cardiovascular disease prevention and developing quality metrics for perioperative complications of interventional treatments. I am also exploring approaches from the perspective of health disparities in society and public health.',
             btnResearch: 'View Research',
             btnCareer: 'Career Timeline',
+            btnCV: 'Download CV',
         },
         career: {
             title: 'Career',
@@ -213,6 +214,7 @@ export const dictionaries = {
             description: '循環器診療に従事するとともに、心血管疾患の予防や、介入的治療の周術期合併症に対するQuality Metricsの取り組みに関する臨床研究を行っています。社会における健康格差や公衆衛生の観点からもアプローチを模索しています。',
             btnResearch: 'View Research',
             btnCareer: 'Career Timeline',
+            btnCV: 'CV ダウンロード',
         },
         career: {
             title: 'Career',

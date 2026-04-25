@@ -62,15 +62,20 @@ body {
 h1 {
   font-family: "Helvetica Neue", "Hiragino Sans", system-ui, sans-serif;
   font-size: 22pt;
-  font-weight: 800;
+  font-weight: 500;
   margin: 0 0 10pt 0;
   letter-spacing: -0.3pt;
   color: #0a2540;
+  display: inline-block;
+}
+
+/* Only the personal name (not the degrees) is bolded + underlined */
+.cv-name {
+  font-weight: 800;
   text-decoration: underline;
   text-decoration-thickness: 1.5pt;
   text-decoration-color: #00b1d2;
   text-underline-offset: 5pt;
-  display: inline-block;
 }
 
 .cv-header-text p:not(.cv-doc-label) {

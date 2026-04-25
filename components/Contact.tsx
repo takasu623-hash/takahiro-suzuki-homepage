@@ -13,22 +13,33 @@ export default function Contact({ lang }: { lang: string }) {
         setStatus("submitting");
         const form = e.currentTarget;
         const data = new FormData(form);
+        const name = String(data.get("name") ?? "");
+        const email = String(data.get("email") ?? "");
+        const message = String(data.get("message") ?? "");
 
         try {
-            const response = await fetch("/api/contact", {
+            const response = await fetch("https://formsubmit.co/ajax/d8301aa2834f9d3d27b0595bbfd02438", {
                 method: "POST",
-                body: data,
                 headers: {
-                    'Accept': 'application/json'
-                }
+                    "Content-Type": "application/json",
+                    "Accept": "application/json"
+                },
+                body: JSON.stringify({
+                    name,
+                    email,
+                    message,
+                    _subject: `New Contact Form Submission from ${name}`,
+                    _replyto: email
+                })
             });
-            if (response.ok) {
+            const result = await response.json().catch(() => null);
+            if (response.ok && result?.success !== "false" && result?.success !== false) {
                 setStatus("success");
                 form.reset();
             } else {
                 setStatus("error");
             }
-        } catch (error) {
+        } catch {
             setStatus("error");
         }
     };

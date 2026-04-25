@@ -8,7 +8,7 @@ date: "April 2026"
 ::: {.cv-header-text}
 <p class="cv-doc-label">CURRICULUM VITAE</p>
 
-# [Takahiro Suzuki]{.cv-name}, M.D., M.P.H.
+# Takahiro Suzuki, M.D., M.P.H.
 
 **Affiliation:** Department of Cardiovascular Medicine, St. Luke's International Hospital\
 **Address:** 9-1 Akashi-Chou, Chuo-ku, Tokyo, Japan\
@@ -118,61 +118,61 @@ date: "April 2026"
 
 ### 2026
 
-1. Suzuki T, Asano T, Shinozaki T, Kohsaka S, Nakashima T, Ono M, Mizuno A, Aoki J; J-PVAD Investigators. Prognostic implications of bleeding and ischemic complications in acute myocardial infarction-related cardiogenic shock managed with microaxial flow pump. *Circ Cardiovasc Interv*. 2026;19:e015676.
+1. [Suzuki T]{.cv-name}, Asano T, Shinozaki T, Kohsaka S, Nakashima T, Ono M, Mizuno A, Aoki J; J-PVAD Investigators. Prognostic implications of bleeding and ischemic complications in acute myocardial infarction-related cardiogenic shock managed with microaxial flow pump. *Circ Cardiovasc Interv*. 2026;19:e015676.
 
-2. Suzuki T, Shiraishi Y, Kohsaka S, Yoneoka D, Ueda I, Ohata T, Numasawa Y, Matsumura K, Shimoji K, Sawano M, Ieda M. Nonfatal adverse events and risk for subsequent mortality in patients undergoing percutaneous coronary intervention. *JACC Cardiovasc Interv*. 2026. doi:10.1016/j.jcin.2026.02.010
+2. [Suzuki T]{.cv-name}, Shiraishi Y, Kohsaka S, Yoneoka D, Ueda I, Ohata T, Numasawa Y, Matsumura K, Shimoji K, Sawano M, Ieda M. Nonfatal adverse events and risk for subsequent mortality in patients undergoing percutaneous coronary intervention. *JACC Cardiovasc Interv*. 2026. doi:10.1016/j.jcin.2026.02.010
 
 ### 2025
 
-3. Suzuki T, Fukui S, Yoneoka D, Aoki J, Fujiwara T. Blood pressure after changes in light-to-moderate alcohol consumption in women and men: longitudinal Japanese annual checkup analysis. *J Am Coll Cardiol*. 2025;86(21):2031–2044.
+3. [Suzuki T]{.cv-name}, Fukui S, Yoneoka D, Aoki J, Fujiwara T. Blood pressure after changes in light-to-moderate alcohol consumption in women and men: longitudinal Japanese annual checkup analysis. *J Am Coll Cardiol*. 2025;86(21):2031–2044.
 
-4. Suzuki T, Fukui S, Shinozaki T, Asano T, Yoshida T, Aoki J, Mizuno A. Lipid profiles after changes in alcohol consumption among adults undergoing annual checkups. *JAMA Netw Open*. 2025;8:e250583.
+4. [Suzuki T]{.cv-name}, Fukui S, Shinozaki T, Asano T, Yoshida T, Aoki J, Mizuno A. Lipid profiles after changes in alcohol consumption among adults undergoing annual checkups. *JAMA Netw Open*. 2025;8:e250583.
 
-5. Suzuki T, Kohsaka S, Spertus JA, Shoji S, Shiraishi Y, Ikemura N, Nakamaru R, Ohata T, Kodaira M, Ueda I, Noma S, Numasawa Y, Ieda M. Risk-stratified prognostic implications of contrast-associated acute kidney injury after percutaneous coronary intervention. *JACC Adv*. 2025;4:101899.
+5. [Suzuki T]{.cv-name}, Kohsaka S, Spertus JA, Shoji S, Shiraishi Y, Ikemura N, Nakamaru R, Ohata T, Kodaira M, Ueda I, Noma S, Numasawa Y, Ieda M. Risk-stratified prognostic implications of contrast-associated acute kidney injury after percutaneous coronary intervention. *JACC Adv*. 2025;4:101899.
 
-6. Suzuki T, Kohsaka S, Shoji S, Shiraishi Y, Sawano M, Ohata T, Yoneoka D, Asano T, Nakamaru R, Noma S, Ueda I, Numasawa Y, Ieda M. Prognostic implications of hemoglobin drop with and without overt bleeding after percutaneous coronary intervention. *JACC Asia*. 2025;5:1590–1601.
+6. [Suzuki T]{.cv-name}, Kohsaka S, Shoji S, Shiraishi Y, Sawano M, Ohata T, Yoneoka D, Asano T, Nakamaru R, Noma S, Ueda I, Numasawa Y, Ieda M. Prognostic implications of hemoglobin drop with and without overt bleeding after percutaneous coronary intervention. *JACC Asia*. 2025;5:1590–1601.
 
-7. Suzuki T, Mori Y, Spertus JA, Ikemura N, Mizuno A, Asano T, Kijima Y, Yoneoka D, Wada H, Yamaji K, Amano T, Kozuma K, Kohsaka S. Left-digit bias in serum creatinine levels and contrast administration: a nationwide cohort study using a Japanese percutaneous coronary intervention registry. *J Am Heart Assoc*. 2025;14:e041252.
+7. [Suzuki T]{.cv-name}, Mori Y, Spertus JA, Ikemura N, Mizuno A, Asano T, Kijima Y, Yoneoka D, Wada H, Yamaji K, Amano T, Kozuma K, Kohsaka S. Left-digit bias in serum creatinine levels and contrast administration: a nationwide cohort study using a Japanese percutaneous coronary intervention registry. *J Am Heart Assoc*. 2025;14:e041252.
 
-8. Suzuki T, Haberlen S, Peterson TE, Palella F, Budoff MJ, Witt MD, Magnani JW, Post WS. Coronary artery calcium and all-cause mortality in the Multicenter AIDS Cohort Study. *Atherosclerosis*. 2025;404:119181.
+8. [Suzuki T]{.cv-name}, Haberlen S, Peterson TE, Palella F, Budoff MJ, Witt MD, Magnani JW, Post WS. Coronary artery calcium and all-cause mortality in the Multicenter AIDS Cohort Study. *Atherosclerosis*. 2025;404:119181.
 
-9. Suzuki T, Kitai T, Kohno T, Kohsaka S, Mizuno A. Quality metrics for heart failure — a guideline-driven indicator development using a modified Delphi process and its applicability to contemporary Japanese practice. *Circ J*. 2025. doi:10.1253/circj.CJ-24-0971
+9. [Suzuki T]{.cv-name}, Kitai T, Kohno T, Kohsaka S, Mizuno A. Quality metrics for heart failure — a guideline-driven indicator development using a modified Delphi process and its applicability to contemporary Japanese practice. *Circ J*. 2025. doi:10.1253/circj.CJ-24-0971
 
-10. Suzuki T, Fujiwara T, Tabuchi T. Social network diversity and COVID-19 infection and severity risk: a longitudinal population study. *Front Public Health*. 2025;13:1730268.
+10. [Suzuki T]{.cv-name}, Fujiwara T, Tabuchi T. Social network diversity and COVID-19 infection and severity risk: a longitudinal population study. *Front Public Health*. 2025;13:1730268.
 
 ### 2024
 
-11. Suzuki T, Asano T, Yoneoka D, Ono M, Miyata K, Kanie T, Takaoka M, Saito A, Nishihata Y, Kijima Y, Mizuno A. Impact of off-hours admissions in STEMI-related cardiogenic shock managed with microaxial flow pump — insights from J-PVAD. *EuroIntervention*. 2024;20:987–995.
+11. [Suzuki T]{.cv-name}, Asano T, Yoneoka D, Ono M, Miyata K, Kanie T, Takaoka M, Saito A, Nishihata Y, Kijima Y, Mizuno A. Impact of off-hours admissions in STEMI-related cardiogenic shock managed with microaxial flow pump — insights from J-PVAD. *EuroIntervention*. 2024;20:987–995.
 
-12. Suzuki T, Mizuno A, Yoneoka D, Nakashima T, Matoba T, Node K, et al. Left-digit bias in out-of-hospital cardiac arrest: the JCS-ReSS study. *PLoS One*. 2024;19:e0305577.
+12. [Suzuki T]{.cv-name}, Mizuno A, Yoneoka D, Nakashima T, Matoba T, Node K, et al. Left-digit bias in out-of-hospital cardiac arrest: the JCS-ReSS study. *PLoS One*. 2024;19:e0305577.
 
-13. Suzuki T, Aoki J, Abe K, Asano T, Yoneoka D, Sato S, et al. Rationale and trial design of feedbacks using behavioural economic theories on STEP counts (FOOTSTEPS) trial in patients with cardiovascular disease. *CJC Open*. 2024;7:535–544.
+13. [Suzuki T]{.cv-name}, Aoki J, Abe K, Asano T, Yoneoka D, Sato S, et al. Rationale and trial design of feedbacks using behavioural economic theories on STEP counts (FOOTSTEPS) trial in patients with cardiovascular disease. *CJC Open*. 2024;7:535–544.
 
-14. Suzuki T, Yasui H, Yoshida T, Noma S, Ohmori T, Iizuka G, et al. Exploratory online survey regarding perceptions of health inequities influenced by social determinants of health among cardiovascular disease patients. *Int Heart J*. 2024;65:881–888.
+14. [Suzuki T]{.cv-name}, Yasui H, Yoshida T, Noma S, Ohmori T, Iizuka G, et al. Exploratory online survey regarding perceptions of health inequities influenced by social determinants of health among cardiovascular disease patients. *Int Heart J*. 2024;65:881–888.
 
-15. Suzuki T, Nagasu H, Ebara T, Kagiyama N, Kishi T, Yano Y, et al. Unraveling the implications of digit bias in digital health — a literature review. *Intern Med*. 2024. doi:10.2169/internalmedicine.4666-24
+15. [Suzuki T]{.cv-name}, Nagasu H, Ebara T, Kagiyama N, Kishi T, Yano Y, et al. Unraveling the implications of digit bias in digital health — a literature review. *Intern Med*. 2024. doi:10.2169/internalmedicine.4666-24
 
-16. Suzuki T, Miyashita M, Kohno T, Rewley J, Igarashi N, Aoyama M, et al. Bereaved family members' perspectives on quality of death in deceased acute cardiovascular disease patients compared with cancer patients — a comparison of the J-HOPE3 study and the quality of palliative care in heart disease (Q-PACH) study. *BMC Palliat Care*. 2024;23:188.
+16. [Suzuki T]{.cv-name}, Miyashita M, Kohno T, Rewley J, Igarashi N, Aoyama M, et al. Bereaved family members' perspectives on quality of death in deceased acute cardiovascular disease patients compared with cancer patients — a comparison of the J-HOPE3 study and the quality of palliative care in heart disease (Q-PACH) study. *BMC Palliat Care*. 2024;23:188.
 
-17. Suzuki T, Rewley J, Sugibuchi K, Suzuki Y, Suzumura S, Tsurugi N, et al. Feedbacks using behavioral economic theories on STEP counts in cardiovascular disease patients (FOOTSTEPS) using novel daily step counts retrieving system. *Int Heart J*. 2024;65:100–108.
+17. [Suzuki T]{.cv-name}, Rewley J, Sugibuchi K, Suzuki Y, Suzumura S, Tsurugi N, et al. Feedbacks using behavioral economic theories on STEP counts in cardiovascular disease patients (FOOTSTEPS) using novel daily step counts retrieving system. *Int Heart J*. 2024;65:100–108.
 
 ### 2023
 
-18. Suzuki T, Kishi T, Ishida M, Rewley J, Node K, Mizuno A. The time trend of information seeking behavior about salt reduction using Google Trends: infodemiological study in Japan. *Hypertens Res*. 2023. doi:10.1038/s41440-023-01283-1
+18. [Suzuki T]{.cv-name}, Kishi T, Ishida M, Rewley J, Node K, Mizuno A. The time trend of information seeking behavior about salt reduction using Google Trends: infodemiological study in Japan. *Hypertens Res*. 2023. doi:10.1038/s41440-023-01283-1
 
-19. Suzuki T, Mizuno A, Kishi T, Rewley J, Matsumoto C, Sahashi Y, et al. Impact of tweet content on the number of retweets — "Tweet the Meeting 2022". *Circ Rep*. 2023. doi:10.1253/circrep.CR-23-0043
+19. [Suzuki T]{.cv-name}, Mizuno A, Kishi T, Rewley J, Matsumoto C, Sahashi Y, et al. Impact of tweet content on the number of retweets — "Tweet the Meeting 2022". *Circ Rep*. 2023. doi:10.1253/circrep.CR-23-0043
 
-20. Suzuki T, Mizuno A, Yasui H, Noma S, Ohmori T, Rewley J, et al. Scoping review of screening and assessment tools for social determinants of health in the field of cardiovascular disease. *Circ J*. 2023. doi:10.1253/circj.CJ-23-0443
+20. [Suzuki T]{.cv-name}, Mizuno A, Yasui H, Noma S, Ohmori T, Rewley J, et al. Scoping review of screening and assessment tools for social determinants of health in the field of cardiovascular disease. *Circ J*. 2023. doi:10.1253/circj.CJ-23-0443
 
 ### 2022
 
-21. Suzuki T, Matsuo T, Kijima Y, Hasegawa R, Ishikawa K, Yamanaka M, et al. Acute heart failure associated with toxic shock syndrome due to methicillin-susceptible *Staphylococcus aureus* during the postpartum period: case report and systematic literature review. *BMC Cardiovasc Disord*. 2022;22:452.
+21. [Suzuki T]{.cv-name}, Matsuo T, Kijima Y, Hasegawa R, Ishikawa K, Yamanaka M, et al. Acute heart failure associated with toxic shock syndrome due to methicillin-susceptible *Staphylococcus aureus* during the postpartum period: case report and systematic literature review. *BMC Cardiovasc Disord*. 2022;22:452.
 
 ### 2021
 
-22. Suzuki T, Okamoto T, Kawai F, Okuyama S, Fukuda K. Hemolytic anemia after acute hepatitis B virus infection: a case report and systematic review. *Intern Med*. 2021. doi:10.2169/internalmedicine.6878-20
+22. [Suzuki T]{.cv-name}, Okamoto T, Kawai F, Okuyama S, Fukuda K. Hemolytic anemia after acute hepatitis B virus infection: a case report and systematic review. *Intern Med*. 2021. doi:10.2169/internalmedicine.6878-20
 
-23. Suzuki T, Ishikawa K, Matsuo T, Kijima Y, Aoyagi H, Kawai F, Komiyama N, Mori N. Pacemaker infection and endocarditis due to *Parvimonas micra*: a case report and systematic review. *Anaerobe*. 2021;72:102459.
+23. [Suzuki T]{.cv-name}, Ishikawa K, Matsuo T, Kijima Y, Aoyagi H, Kawai F, Komiyama N, Mori N. Pacemaker infection and endocarditis due to *Parvimonas micra*: a case report and systematic review. *Anaerobe*. 2021;72:102459.
 
 ---
 
@@ -180,41 +180,41 @@ date: "April 2026"
 
 ### 2025
 
-1. Billa S, Fukui S, Paudel ML, Suzuki T, Imai R, Kim Y, et al. Longitudinal changes in serum urate levels from pre-menopause through post-menopause: interrupted time-series analyses. *Arthritis Rheumatol*. 2025. doi:10.1002/art.43406
+1. Billa S, Fukui S, Paudel ML, [Suzuki T]{.cv-name}, Imai R, Kim Y, et al. Longitudinal changes in serum urate levels from pre-menopause through post-menopause: interrupted time-series analyses. *Arthritis Rheumatol*. 2025. doi:10.1002/art.43406
 
-2. Miyata K, Asano T, Suzuki T, Ono M, Aoki J. The potential role of major dissection observed on optical frequency-domain imaging in optimal lumen expansion after coronary intravascular lithotripsy: a comparative analysis with calcium fractures. *Cardiovasc Interv Ther*. 2025;40:998–1000.
+2. Miyata K, Asano T, [Suzuki T]{.cv-name}, Ono M, Aoki J. The potential role of major dissection observed on optical frequency-domain imaging in optimal lumen expansion after coronary intravascular lithotripsy: a comparative analysis with calcium fractures. *Cardiovasc Interv Ther*. 2025;40:998–1000.
 
-3. Nishizawa T, Nawa N, Mizuno A, Suzuki T, Arioka H, Fujiwara T. Association between low income and ICU delirium among critically ill older patients: a retrospective cohort study in Japan. *Anaesth Crit Care Pain Med*. 2025;44:101523.
+3. Nishizawa T, Nawa N, Mizuno A, [Suzuki T]{.cv-name}, Arioka H, Fujiwara T. Association between low income and ICU delirium among critically ill older patients: a retrospective cohort study in Japan. *Anaesth Crit Care Pain Med*. 2025;44:101523.
 
 4. Tsukada YT, Aoki-Kamiya C, Mizuno A, Nakayama A, Ide T, Aoyama R, et al. JCS/JCC/JACR/JATS 2024 guideline on cardiovascular practice with consideration for diversity, equity, and inclusion. *J Cardiol*. 2025;85:510–574.
 
 ### 2024
 
-5. Fukui S, Okada M, Shinozaki T, Suzuki T, Nakai T, Ozawa H, et al. Weight reduction and target serum urate level: a longitudinal study of annual medical examination. *Arthritis Rheumatol*. 2024. doi:10.1002/art.43027
+5. Fukui S, Okada M, Shinozaki T, [Suzuki T]{.cv-name}, Nakai T, Ozawa H, et al. Weight reduction and target serum urate level: a longitudinal study of annual medical examination. *Arthritis Rheumatol*. 2024. doi:10.1002/art.43027
 
 6. Asano T, Tanigaki T, Hoshino M, Yasunaga M, Nonaka H, Emori H, et al. Quantitative flow ratio versus fractional flow reserve for Heart Team decision-making in multivessel disease: the randomised, multicentre DECISION QFR trial. *EuroIntervention*. 2024;20:561–570.
 
-7. Isa K, Suzuki T, Nomura S, Miyoshi T, Fujita K, Kubo T, et al. Demographic determinants influencing the adoption of genetic testing for cardiovascular diseases in Japan — insights from a large-scale online survey. *Circ Rep*. 2024;6:178–182.
+7. Isa K, [Suzuki T]{.cv-name}, Nomura S, Miyoshi T, Fujita K, Kubo T, et al. Demographic determinants influencing the adoption of genetic testing for cardiovascular diseases in Japan — insights from a large-scale online survey. *Circ Rep*. 2024;6:178–182.
 
-8. Okazaki M, Suzuki T, Mizuno A, Ikegame T, Ito N, Onoda M, et al. Propelling nurse-led structured intervention to enhance self-care among patients with chronic heart failure (PROACT-HF): a cluster randomized controlled trial study protocol. *J Pers Med*. 2024;14:832.
+8. Okazaki M, [Suzuki T]{.cv-name}, Mizuno A, Ikegame T, Ito N, Onoda M, et al. Propelling nurse-led structured intervention to enhance self-care among patients with chronic heart failure (PROACT-HF): a cluster randomized controlled trial study protocol. *J Pers Med*. 2024;14:832.
 
-9. Watanabe S, Izumino H, Takatani Y, Tsutsumi R, Suzuki T, Tatsumi H, et al. Effects of energy delivery guided by indirect calorimetry in critically ill patients: a systematic review and meta-analysis. *Nutrients*. 2024;16:1452.
+9. Watanabe S, Izumino H, Takatani Y, Tsutsumi R, [Suzuki T]{.cv-name}, Tatsumi H, et al. Effects of energy delivery guided by indirect calorimetry in critically ill patients: a systematic review and meta-analysis. *Nutrients*. 2024;16:1452.
 
 ### 2022
 
-10. Ishikawa K, Matsuo T, Suzuki T, Kawai F, Uehara Y, Mori N. Penicillin- and third-generation cephalosporin-resistant strains of *Streptococcus pneumoniae* meningitis: case report and literature review. *J Infect Chemother*. 2022;28:663–668.
+10. Ishikawa K, Matsuo T, [Suzuki T]{.cv-name}, Kawai F, Uehara Y, Mori N. Penicillin- and third-generation cephalosporin-resistant strains of *Streptococcus pneumoniae* meningitis: case report and literature review. *J Infect Chemother*. 2022;28:663–668.
 
 11. Miyata K, Asano T, Saito A, Abe K, Tanigaki T, Hoshino M, et al. Heart Team risk assessment with angiography-derived fractional flow reserve determining the optimal revascularization strategy in patients with multivessel disease: trial design and rationale for the DECISION QFR randomized trial. *Clin Cardiol*. 2022;45:605–613.
 
 ### 2021
 
-12. Kanie T, Mizuno A, Takaoka Y, Suzuki T, Yoneoka D, Nishikawa Y, et al. Dipeptidyl peptidase-4 inhibitors, glucagon-like peptide 1 receptor agonists and sodium-glucose co-transporter-2 inhibitors for people with cardiovascular disease: a network meta-analysis. *Cochrane Database Syst Rev*. 2021;10:CD013650.
+12. Kanie T, Mizuno A, Takaoka Y, [Suzuki T]{.cv-name}, Yoneoka D, Nishikawa Y, et al. Dipeptidyl peptidase-4 inhibitors, glucagon-like peptide 1 receptor agonists and sodium-glucose co-transporter-2 inhibitors for people with cardiovascular disease: a network meta-analysis. *Cochrane Database Syst Rev*. 2021;10:CD013650.
 
-13. Matsuo T, Saito A, Kawai F, Ishikawa K, Hasegawa R, Suzuki T, et al. Use of PCR in the diagnosis of pericardial amebiasis: a case report and systematic review of the literature. *BMC Infect Dis*. 2021;21:960.
+13. Matsuo T, Saito A, Kawai F, Ishikawa K, Hasegawa R, [Suzuki T]{.cv-name}, et al. Use of PCR in the diagnosis of pericardial amebiasis: a case report and systematic review of the literature. *BMC Infect Dis*. 2021;21:960.
 
 ### 2018
 
-14. Kanie T, Mizuno A, Kawai F, Iri T, Suzuki T, Oshima S, et al. Bibliographic title search for medical cardiological "signs" (eponyms). *J Gen Fam Med*. 2018;19:223–225.
+14. Kanie T, Mizuno A, Kawai F, Iri T, [Suzuki T]{.cv-name}, Oshima S, et al. Bibliographic title search for medical cardiological "signs" (eponyms). *J Gen Fam Med*. 2018;19:223–225.
 
 ---
 
@@ -268,14 +268,14 @@ date: "April 2026"
 
 ## Invited Lectures
 
-1. Suzuki T. Social determinants of health and cardiovascular disease. Japanese Circulation Society, Fukuoka, Japan, 2023.
-2. Suzuki T. Risk stratification for renal dysfunction and bleeding in percutaneous coronary intervention — future approaches for perioperative complications. Japanese Association of Cardiovascular Intervention and Therapeutics, Fukuoka, Japan, 2023.
-3. Suzuki T. Quantifying physical activity through wearable technology. Japanese Association of Cardiac Rehabilitation, Kobe, Japan, 2024.
-4. Suzuki T. Global landscape of quality improvement initiatives in percutaneous coronary intervention. Japanese Association of Cardiovascular Intervention and Therapeutics, Sapporo, Japan, 2024.
-5. Suzuki T. Examining the clinical-evidence gap in the ISCHEMIA / ORBITA-2 trials. Japanese College of Cardiology, Sendai, Japan, 2024.
-6. Suzuki T. Practice and challenges of heart team–based care for acute coronary syndrome complicated by cardiogenic shock. Japanese Society for Coronary Artery Surgery, Utsunomiya, Japan, 2025.
-7. Suzuki T. Reconsidering PCI strategies for coronary artery disease in Japan: insights from major landmark trials and real-world practice at our institution. Japanese Association of Cardiovascular Intervention and Therapeutics, Osaka, Japan, 2025.
-8. Suzuki T. A collaborative project linking the National Clinical Database and quality indicators: exploratory attempts at nudge-based feedback in future J-PCI reporting. Japanese Association of Cardiovascular Intervention and Therapeutics, Osaka, Japan, 2025.
+1. [Suzuki T]{.cv-name}. Social determinants of health and cardiovascular disease. Japanese Circulation Society, Fukuoka, Japan, 2023.
+2. [Suzuki T]{.cv-name}. Risk stratification for renal dysfunction and bleeding in percutaneous coronary intervention — future approaches for perioperative complications. Japanese Association of Cardiovascular Intervention and Therapeutics, Fukuoka, Japan, 2023.
+3. [Suzuki T]{.cv-name}. Quantifying physical activity through wearable technology. Japanese Association of Cardiac Rehabilitation, Kobe, Japan, 2024.
+4. [Suzuki T]{.cv-name}. Global landscape of quality improvement initiatives in percutaneous coronary intervention. Japanese Association of Cardiovascular Intervention and Therapeutics, Sapporo, Japan, 2024.
+5. [Suzuki T]{.cv-name}. Examining the clinical-evidence gap in the ISCHEMIA / ORBITA-2 trials. Japanese College of Cardiology, Sendai, Japan, 2024.
+6. [Suzuki T]{.cv-name}. Practice and challenges of heart team–based care for acute coronary syndrome complicated by cardiogenic shock. Japanese Society for Coronary Artery Surgery, Utsunomiya, Japan, 2025.
+7. [Suzuki T]{.cv-name}. Reconsidering PCI strategies for coronary artery disease in Japan: insights from major landmark trials and real-world practice at our institution. Japanese Association of Cardiovascular Intervention and Therapeutics, Osaka, Japan, 2025.
+8. [Suzuki T]{.cv-name}. A collaborative project linking the National Clinical Database and quality indicators: exploratory attempts at nudge-based feedback in future J-PCI reporting. Japanese Association of Cardiovascular Intervention and Therapeutics, Osaka, Japan, 2025.
 
 ---
 
@@ -289,20 +289,20 @@ date: "April 2026"
 
 ### Translations into Japanese
 
-1. Suzuki T (translator). *Heart Sounds Made Easy*, 2nd edition (Elspeth M. Brown). Churchill Livingstone, July 2017, Part 3.
-2. Suzuki T (translator). *Frameworks for Internal Medicine* (Andre M. Mansoor). Wolters Kluwer, November 2018, Part 5: Pericarditis.
-3. Suzuki T (translator). *Pocket Medicine*, 7th edition: The Massachusetts General Hospital handbook of Internal Medicine (Marc S. Sabatine). Wolters Kluwer, September 2019, Part 1, pp. 18–19.
+1. [Suzuki T]{.cv-name} (translator). *Heart Sounds Made Easy*, 2nd edition (Elspeth M. Brown). Churchill Livingstone, July 2017, Part 3.
+2. [Suzuki T]{.cv-name} (translator). *Frameworks for Internal Medicine* (Andre M. Mansoor). Wolters Kluwer, November 2018, Part 5: Pericarditis.
+3. [Suzuki T]{.cv-name} (translator). *Pocket Medicine*, 7th edition: The Massachusetts General Hospital handbook of Internal Medicine (Marc S. Sabatine). Wolters Kluwer, September 2019, Part 1, pp. 18–19.
 
 ### Book Chapters and Articles
 
-1. Suzuki T. How to feel right heart strain — pulmonary embolism. *Sougou Shinryou*. 2018;28(1):189. doi:10.11477/mf.1429201304 [in Japanese]
-2. Suzuki T. Diagnostic process of respiratory failure. *Heart View*. 2020;24(4):318–323. Medical View. [in Japanese]
-3. Suzuki T. Differential Diagnosis 1st Impression — electronic book. Medi Link, September 2020, 3rd edition, Cardiology, Medic Media. [in Japanese]
-4. Suzuki T. Therapeutic medications for cardiovascular diseases. *Resident's Note*. 2022;23(18):3127–3137. [in Japanese]
-5. Suzuki T. Reconsidering the indications for PCI in CCS patients 2-1: does PCI improve prognosis? *Coronary Intervention*. 2023;19(5):21–26. [in Japanese]
-6. Suzuki T. *The Rules for Internal Medicine Residents*, 4th edition. Igaku-Shoin, 2024. [in Japanese]
-7. Suzuki T. Hypertension: topics to utilize in daily clinical practice of hypertension — digital hypertension and digit bias. *Medical Practice*. 2024;41(4):540–544. [in Japanese]
-8. Suzuki T, Mizuno A. The role of social determinants of health (SDOH). *Cardiology Review 2025–2026*. Sougou Igakusha, 2025.
+1. [Suzuki T]{.cv-name}. How to feel right heart strain — pulmonary embolism. *Sougou Shinryou*. 2018;28(1):189. doi:10.11477/mf.1429201304 [in Japanese]
+2. [Suzuki T]{.cv-name}. Diagnostic process of respiratory failure. *Heart View*. 2020;24(4):318–323. Medical View. [in Japanese]
+3. [Suzuki T]{.cv-name}. Differential Diagnosis 1st Impression — electronic book. Medi Link, September 2020, 3rd edition, Cardiology, Medic Media. [in Japanese]
+4. [Suzuki T]{.cv-name}. Therapeutic medications for cardiovascular diseases. *Resident's Note*. 2022;23(18):3127–3137. [in Japanese]
+5. [Suzuki T]{.cv-name}. Reconsidering the indications for PCI in CCS patients 2-1: does PCI improve prognosis? *Coronary Intervention*. 2023;19(5):21–26. [in Japanese]
+6. [Suzuki T]{.cv-name}. *The Rules for Internal Medicine Residents*, 4th edition. Igaku-Shoin, 2024. [in Japanese]
+7. [Suzuki T]{.cv-name}. Hypertension: topics to utilize in daily clinical practice of hypertension — digital hypertension and digit bias. *Medical Practice*. 2024;41(4):540–544. [in Japanese]
+8. [Suzuki T]{.cv-name}, Mizuno A. The role of social determinants of health (SDOH). *Cardiology Review 2025–2026*. Sougou Igakusha, 2025.
 
 ---
 

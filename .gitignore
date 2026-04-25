@@ -45,3 +45,7 @@ next-env.d.ts
 
 # stray local screenshots at root
 /Screenshot*.png
+
+# CV intermediate build artifacts (source = cv/cv-source.md, output = public/CV_Takahiro_Suzuki.pdf)
+/cv/cv.html
+/cv/cv.pdf

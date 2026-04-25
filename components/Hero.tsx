@@ -31,7 +31,7 @@ export default function Hero({ lang }: { lang: string }) {
                             {dict.btnCareer}
                         </a>
                         <a
-                            href="/CV_Takahiro_Suzuki_2026_0420.pdf"
+                            href="/CV_Takahiro_Suzuki.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn btn-outline"

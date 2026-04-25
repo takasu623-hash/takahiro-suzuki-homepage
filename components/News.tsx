@@ -6,28 +6,18 @@ export default function News({ lang }: { lang: string }) {
 
     return (
         <section id="news" className="news-section">
-            <div className="container">
-                <div className="section-header">
-                    <h2 className="section-title">{dict.title}</h2>
-                    <p className="section-subtitle">{dict.subtitle}</p>
-                </div>
+            <div className="container news-container">
+                <h2 className="section-title">{dict.title}</h2>
                 <div className="news-list">
-                    {dict.items.map((item, index) => (
-                        <a
-                            key={index}
-                            href={item.link}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="news-card news-animate"
-                            style={{ animationDelay: `${index * 0.1}s` }}
-                        >
-                            <div className="news-meta">
-                                <span className="news-date">{item.date}</span>
-                                <span className="news-category">{item.category}</span>
-                            </div>
-                            <h3 className="news-headline">{item.headline}</h3>
-                            <p className="news-description">{item.description}</p>
-                            <div className="news-link-hint">View on PubMed →</div>
+                    {dict.items.map((item, idx) => (
+                        <a key={idx} href={item.link} target="_blank" rel="noopener noreferrer" className="news-item">
+                            <span className="news-date">{item.date}</span>
+                            <span className="news-title">{item.title}</span>
+                            <svg className="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
                         </a>
                     ))}
                 </div>

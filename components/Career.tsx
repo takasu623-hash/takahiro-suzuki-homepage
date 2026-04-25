@@ -12,14 +12,15 @@ export default function Career({ lang }: { lang: string }) {
                     <p className="section-subtitle">{dict.subtitle}</p>
                 </div>
 
-                <div className="timeline">
+                <div className="career-chart">
                     {dict.items.map((item, index) => (
-                        <div key={index} className="timeline-item animate-slide-up" style={{ animationDelay: `${index * 0.1}s` }}>
-                            <div className="timeline-dot"></div>
-                            <div className="timeline-content">
-                                <span className="timeline-year">{item.year}</span>
-                                <h3 className="timeline-role">{item.title}</h3>
-                                <p className="timeline-institution">{item.institution}</p>
+                        <div key={index} className="career-row animate-slide-up" style={{ animationDelay: `${index * 0.05}s` }}>
+                            <div className="career-year-cell">
+                                <span className="career-year">{item.year}</span>
+                            </div>
+                            <div className="career-details-cell">
+                                <h3 className="career-role">{item.title}</h3>
+                                <p className="career-institution">{item.institution}</p>
                             </div>
                         </div>
                     ))}

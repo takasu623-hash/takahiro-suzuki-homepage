@@ -1,101 +1,85 @@
 .career-section {
-    padding: var(--spacing-section) 0;
+    padding: var(--spacing-xl) 0;
     background-color: var(--color-background);
 }
 
-.timeline {
-    max-width: 800px;
+.career-chart {
+    max-width: 900px;
     margin: 0 auto;
-    position: relative;
-    padding: var(--spacing-md) 0;
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid var(--color-border);
+    border-bottom: 2px solid var(--color-border);
 }
 
-.timeline::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 24px;
-    width: 2px;
-    background-color: var(--color-border);
+.career-row {
+    display: flex;
+    align-items: stretch;
+    border-bottom: 1px solid var(--color-border);
+    transition: background-color var(--transition-fast);
 }
 
-.timeline-item {
-    position: relative;
-    padding-left: 64px;
-    margin-bottom: var(--spacing-2xl);
+.career-row:last-child {
+    border-bottom: none;
 }
 
-.timeline-item:last-child {
-    margin-bottom: 0;
-}
-
-.timeline-marker {
-    position: absolute;
-    left: 17px;
-    top: 4px;
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    background-color: var(--color-background);
-    border: 3px solid var(--color-accent);
-    box-shadow: 0 0 0 4px var(--color-background);
-    z-index: 1;
-    transition: all var(--transition-fast);
-}
-
-.timeline-item:hover .timeline-marker {
-    background-color: var(--color-accent);
-    box-shadow: 0 0 0 6px var(--color-surface);
-}
-
-.timeline-content {
+.career-row:hover {
     background-color: var(--color-surface);
-    padding: var(--spacing-xl);
-    border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-sm);
-    transition: transform var(--transition-normal), box-shadow var(--transition-normal);
-    border: 1px solid transparent;
 }
 
-.timeline-item:hover .timeline-content {
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-md);
-    border-color: var(--color-border);
+.career-year-cell {
+    width: 280px;
+    flex-shrink: 0;
+    padding: var(--spacing-lg) var(--spacing-lg) var(--spacing-lg) 0;
+    border-right: 1px dashed var(--color-border);
+    display: flex;
+    align-items: center;
 }
 
-.timeline-year {
-    display: inline-block;
+.career-year {
     font-weight: 700;
     color: var(--color-primary);
-    background-color: rgba(0, 212, 255, 0.1);
-    padding: 4px 12px;
-    border-radius: 20px;
-    font-size: 0.9rem;
-    margin-bottom: var(--spacing-sm);
+    font-size: 1.05rem;
+    font-family: var(--font-mono), monospace;
+    letter-spacing: -0.02em;
 }
 
-.timeline-role {
-    font-size: 1.5rem;
+.career-details-cell {
+    flex-grow: 1;
+    padding: var(--spacing-lg) 0 var(--spacing-lg) var(--spacing-lg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.career-role {
+    font-size: 1.15rem;
     margin-bottom: var(--spacing-xs);
     color: var(--color-text);
+    font-weight: 600;
+    line-height: 1.4;
 }
 
-.timeline-institution {
+.career-institution {
     color: var(--color-text-muted);
-    font-size: 1.1rem;
+    font-size: 0.95rem;
+    line-height: 1.4;
 }
 
 @media (max-width: 768px) {
-    .timeline::before {
-        left: 16px;
+    .career-row {
+        flex-direction: column;
+        padding: var(--spacing-md) 0;
     }
 
-    .timeline-marker {
-        left: 9px;
+    .career-year-cell {
+        width: 100%;
+        padding: 0 0 var(--spacing-xs) 0;
+        border-right: none;
+        border-bottom: 1px solid transparent;
     }
 
-    .timeline-item {
-        padding-left: 48px;
+    .career-details-cell {
+        padding: 0;
     }
 }

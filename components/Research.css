@@ -79,30 +79,74 @@
 .theme-section {
     background-color: var(--color-surface);
     border-radius: var(--radius-lg);
-    padding: var(--spacing-lg);
-    box-shadow: var(--shadow-md);
+    padding: var(--spacing-2xl);
+    box-shadow: var(--shadow-lg);
     border: 1px solid var(--color-border);
+    scroll-margin-top: 100px;
+    /* For anchor links */
+}
+
+.theme-header-layout {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xl);
+    margin-bottom: var(--spacing-xl);
+}
+
+@media (min-width: 768px) {
+    .theme-header-layout {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+.theme-image-wrapper {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 400px;
+    height: 250px;
+    position: relative;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    border: 2px solid var(--color-border);
+}
+
+@media (min-width: 768px) {
+    .theme-image-wrapper {
+        width: 40%;
+    }
+}
+
+.theme-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.theme-info {
+    flex-grow: 1;
 }
 
 .theme-title {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     color: var(--color-primary);
     margin-bottom: var(--spacing-sm);
     border-bottom: 2px solid var(--color-accent);
     padding-bottom: var(--spacing-xs);
     display: inline-block;
+    font-weight: 700;
 }
 
 .theme-desc {
-    font-size: 1rem;
+    font-size: 1.05rem;
     color: var(--color-text-muted);
-    margin-bottom: var(--spacing-lg);
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
 .paper-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    display: flex;
+    flex-direction: column;
     gap: var(--spacing-md);
 }
 
@@ -112,56 +156,48 @@
     gap: var(--spacing-md);
 }
 
-.publication-card {
+.publication-item {
     display: flex;
-    align-items: flex-start;
-    background-color: var(--color-background);
-    padding: var(--spacing-xl);
-    border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-sm);
-    transition: all var(--transition-normal);
-    border: 1px solid transparent;
-    color: inherit;
+    align-items: stretch;
+    padding: var(--spacing-xl) 0;
+    border-bottom: 1px solid var(--color-border);
     text-decoration: none;
+    color: inherit;
+    transition: all var(--transition-normal);
     position: relative;
-    overflow: hidden;
+    background: transparent;
 }
 
-.publication-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 4px;
-    height: 100%;
-    background-color: transparent;
-    transition: background-color var(--transition-fast);
+.publication-item:last-child {
+    border-bottom: none;
 }
 
-.publication-card:hover {
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-lg);
-    border-color: var(--color-border);
+.publication-item:hover {
+    background-color: var(--color-surface);
+    padding-left: var(--spacing-lg);
+    padding-right: var(--spacing-lg);
+    margin-left: calc(-1 * var(--spacing-lg));
+    margin-right: calc(-1 * var(--spacing-lg));
+    border-radius: var(--radius-md);
+    border-bottom-color: transparent;
 }
 
-.publication-card:hover::before {
-    background-color: var(--color-accent);
-}
-
-.publication-year {
+.publication-year-badge {
     font-weight: 700;
     color: var(--color-primary);
-    background-color: var(--color-surface);
-    padding: var(--spacing-xs) var(--spacing-sm);
-    border-radius: var(--radius-sm);
-    font-size: 0.9rem;
-    margin-right: var(--spacing-lg);
+    font-size: 1.1rem;
+    margin-right: var(--spacing-xl);
     flex-shrink: 0;
+    padding-top: 2px;
+    width: 50px;
 }
 
 .publication-content {
     flex-grow: 1;
     padding-right: var(--spacing-xl);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
 }
 
 .publication-title {
@@ -169,54 +205,77 @@
     font-family: var(--font-sans);
     font-weight: 600;
     color: var(--color-primary);
-    margin-bottom: var(--spacing-sm);
-    line-height: 1.4;
+    line-height: 1.5;
     transition: color var(--transition-fast);
 }
 
-.publication-card:hover .publication-title {
-    color: var(--color-primary-light);
+.publication-item:hover .publication-title {
+    color: var(--color-accent);
 }
 
 .publication-authors {
     color: var(--color-text);
     font-size: 0.95rem;
-    margin-bottom: var(--spacing-xs);
+    line-height: 1.5;
 }
 
 .publication-journal {
     color: var(--color-text-muted);
     font-size: 0.9rem;
     font-style: italic;
+    line-height: 1.4;
 }
 
-.publication-icon {
-    width: 24px;
-    height: 24px;
-    color: var(--color-text-muted);
-    flex-shrink: 0;
-    transition: color var(--transition-fast), transform var(--transition-fast);
-}
-
-.publication-card:hover .publication-icon {
+.publication-action {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
     color: var(--color-accent);
-    transform: translate(2px, -2px);
+    font-size: 0.9rem;
+    font-weight: 600;
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: all var(--transition-normal);
+}
+
+.publication-item:hover .publication-action {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.publication-action .publication-icon {
+    width: 18px;
+    height: 18px;
 }
 
 @media (max-width: 768px) {
-    .publication-card {
+    .publication-item {
         flex-direction: column;
-        padding: var(--spacing-lg);
+        padding: var(--spacing-lg) 0;
     }
 
-    .publication-year {
+    .publication-item:hover {
+        padding-left: var(--spacing-md);
+        padding-right: var(--spacing-md);
+        margin-left: calc(-1 * var(--spacing-md));
+        margin-right: calc(-1 * var(--spacing-md));
+    }
+
+    .publication-year-badge {
         margin-right: 0;
         margin-bottom: var(--spacing-sm);
+        width: auto;
     }
 
-    .publication-icon {
-        position: absolute;
-        right: var(--spacing-lg);
+    .publication-content {
+        padding-right: 0;
+    }
+
+    .publication-action {
+        opacity: 1;
+        transform: none;
+        margin-top: var(--spacing-md);
+        justify-content: flex-start;
     }
 }
 

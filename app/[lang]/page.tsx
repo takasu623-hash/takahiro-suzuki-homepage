@@ -1,8 +1,10 @@
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import News from '@/components/News';
+import Books from '@/components/Books';
 import Career from '@/components/Career';
 import Research from '@/components/Research';
+import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
@@ -13,8 +15,10 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       <main>
         <Hero lang={lang} />
         <News lang={lang} />
+        <Books lang={lang} />
         <Career lang={lang} />
         <Research lang={lang} />
+        <Contact lang={lang} />
       </main>
       <Footer lang={lang} />
     </div>

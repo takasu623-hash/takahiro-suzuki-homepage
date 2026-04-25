@@ -144,29 +144,29 @@ date: "April 2026"
 
 11. [Suzuki T]{.cv-name}, Asano T, Yoneoka D, Ono M, Miyata K, Kanie T, Takaoka M, Saito A, Nishihata Y, Kijima Y, Mizuno A. Impact of off-hours admissions in STEMI-related cardiogenic shock managed with microaxial flow pump — insights from J-PVAD. *EuroIntervention*. 2024;20:987–995.
 
-12. [Suzuki T]{.cv-name}, Mizuno A, Yoneoka D, Nakashima T, Matoba T, Node K, et al. Left-digit bias in out-of-hospital cardiac arrest: the JCS-ReSS study. *PLoS One*. 2024;19:e0305577.
+12. [Suzuki T]{.cv-name}, Mizuno A, Yoneoka D, Nakashima T, Matoba T, Node K, Yonemoto N, Tahara Y, Kobayashi Y, Ikeda T. Left-digit bias in out-of-hospital cardiac arrest: the JCS-ReSS study. *PLoS One*. 2024;19:e0305577.
 
-13. [Suzuki T]{.cv-name}, Aoki J, Abe K, Asano T, Yoneoka D, Sato S, et al. Rationale and trial design of feedbacks using behavioural economic theories on STEP counts (FOOTSTEPS) trial in patients with cardiovascular disease. *CJC Open*. 2024;7:535–544.
+13. [Suzuki T]{.cv-name}, Aoki J, Abe K, Asano T, Yoneoka D, Sato S, Rewley J, Miyata K, Ono M, Saito A, Kanie T, Okui K, Takahashi A, Isa K, Takasago S, Shiina Y, Nishihata Y, Niinuma H, Masuda K, Kijima Y, Nishida H, Komiyama N, Sugibuchi K, Suzuki Y, Igarashi A, Suzumura S, Tsurugi N, Okamura D, Mizuno A, FOOTSTEPS Investigators. Rationale and trial design of feedbacks using behavioural economic theories on STEP counts (FOOTSTEPS) trial in patients with cardiovascular disease. *CJC Open*. 2024;7:535–544.
 
-14. [Suzuki T]{.cv-name}, Yasui H, Yoshida T, Noma S, Ohmori T, Iizuka G, et al. Exploratory online survey regarding perceptions of health inequities influenced by social determinants of health among cardiovascular disease patients. *Int Heart J*. 2024;65:881–888.
+14. [Suzuki T]{.cv-name}, Yasui H, Yoshida T, Noma S, Ohmori T, Iizuka G, Nakayama T, Kondo N, Tsukada YT, Mizuno A. Exploratory online survey regarding perceptions of health inequities influenced by social determinants of health among cardiovascular disease patients. *Int Heart J*. 2024;65:881–888.
 
-15. [Suzuki T]{.cv-name}, Nagasu H, Ebara T, Kagiyama N, Kishi T, Yano Y, et al. Unraveling the implications of digit bias in digital health — a literature review. *Intern Med*. 2024. doi:10.2169/internalmedicine.4666-24
+15. [Suzuki T]{.cv-name}, Nagasu H, Ebara T, Kagiyama N, Kishi T, Yano Y, Kario K, Nishiyama A, Arima H, Kawai F, Shibata S, Node K, Mizuno A. Unraveling the implications of digit bias in digital health — a literature review. *Intern Med*. 2024. doi:10.2169/internalmedicine.4666-24
 
-16. [Suzuki T]{.cv-name}, Miyashita M, Kohno T, Rewley J, Igarashi N, Aoyama M, et al. Bereaved family members' perspectives on quality of death in deceased acute cardiovascular disease patients compared with cancer patients — a comparison of the J-HOPE3 study and the quality of palliative care in heart disease (Q-PACH) study. *BMC Palliat Care*. 2024;23:188.
+16. [Suzuki T]{.cv-name}, Miyashita M, Kohno T, Rewley J, Igarashi N, Aoyama M, Higashitani M, Kawamatsu N, Kitai T, Shibata T, Takei M, Nochioka K, Nakazawa G, Shiomi H, Tateno S, Anzai T, Mizuno A. Bereaved family members' perspectives on quality of death in deceased acute cardiovascular disease patients compared with cancer patients — a comparison of the J-HOPE3 study and the quality of palliative care in heart disease (Q-PACH) study. *BMC Palliat Care*. 2024;23:188.
 
-17. [Suzuki T]{.cv-name}, Rewley J, Sugibuchi K, Suzuki Y, Suzumura S, Tsurugi N, et al. Feedbacks using behavioral economic theories on STEP counts in cardiovascular disease patients (FOOTSTEPS) using novel daily step counts retrieving system. *Int Heart J*. 2024;65:100–108.
+17. [Suzuki T]{.cv-name}, Rewley J, Sugibuchi K, Suzuki Y, Suzumura S, Tsurugi N, Okamura D, Node K, Mizuno A. Feedbacks using behavioral economic theories on STEP counts in cardiovascular disease patients (FOOTSTEPS) using novel daily step counts retrieving system. *Int Heart J*. 2024;65:100–108.
 
 ### 2023
 
 18. [Suzuki T]{.cv-name}, Kishi T, Ishida M, Rewley J, Node K, Mizuno A. The time trend of information seeking behavior about salt reduction using Google Trends: infodemiological study in Japan. *Hypertens Res*. 2023. doi:10.1038/s41440-023-01283-1
 
-19. [Suzuki T]{.cv-name}, Mizuno A, Kishi T, Rewley J, Matsumoto C, Sahashi Y, et al. Impact of tweet content on the number of retweets — "Tweet the Meeting 2022". *Circ Rep*. 2023. doi:10.1253/circrep.CR-23-0043
+19. [Suzuki T]{.cv-name}, Mizuno A, Kishi T, Rewley J, Matsumoto C, Sahashi Y, Ishida M, Sanada S, Fukuda M, Sugimoto T, Hirano M, Node K. Impact of tweet content on the number of retweets — "Tweet the Meeting 2022". *Circ Rep*. 2023. doi:10.1253/circrep.CR-23-0043
 
-20. [Suzuki T]{.cv-name}, Mizuno A, Yasui H, Noma S, Ohmori T, Rewley J, et al. Scoping review of screening and assessment tools for social determinants of health in the field of cardiovascular disease. *Circ J*. 2023. doi:10.1253/circj.CJ-23-0443
+20. [Suzuki T]{.cv-name}, Mizuno A, Yasui H, Noma S, Ohmori T, Rewley J, Kawai F, Nakayama T, Kondo N, Tsukada YT. Scoping review of screening and assessment tools for social determinants of health in the field of cardiovascular disease. *Circ J*. 2023. doi:10.1253/circj.CJ-23-0443
 
 ### 2022
 
-21. [Suzuki T]{.cv-name}, Matsuo T, Kijima Y, Hasegawa R, Ishikawa K, Yamanaka M, et al. Acute heart failure associated with toxic shock syndrome due to methicillin-susceptible *Staphylococcus aureus* during the postpartum period: case report and systematic literature review. *BMC Cardiovasc Disord*. 2022;22:452.
+21. [Suzuki T]{.cv-name}, Matsuo T, Kijima Y, Hasegawa R, Ishikawa K, Yamanaka M, Kawai F, Komiyama N, Mori N. Acute heart failure associated with toxic shock syndrome due to methicillin-susceptible *Staphylococcus aureus* during the postpartum period: case report and systematic literature review. *BMC Cardiovasc Disord*. 2022;22:452.
 
 ### 2021
 
@@ -180,41 +180,41 @@ date: "April 2026"
 
 ### 2025
 
-1. Billa S, Fukui S, Paudel ML, [Suzuki T]{.cv-name}, Imai R, Kim Y, et al. Longitudinal changes in serum urate levels from pre-menopause through post-menopause: interrupted time-series analyses. *Arthritis Rheumatol*. 2025. doi:10.1002/art.43406
+1. Billa S, Fukui S, Paudel ML, [Suzuki T]{.cv-name}, Imai R, Kim Y, Nakai T, Tamaki H, Kishimoto M, Ørbo HS, Tedeschi SK, Choi HK, Okada M, Solomon DH. Longitudinal changes in serum urate levels from pre-menopause through post-menopause: interrupted time-series analyses. *Arthritis Rheumatol*. 2025. doi:10.1002/art.43406
 
 2. Miyata K, Asano T, [Suzuki T]{.cv-name}, Ono M, Aoki J. The potential role of major dissection observed on optical frequency-domain imaging in optimal lumen expansion after coronary intravascular lithotripsy: a comparative analysis with calcium fractures. *Cardiovasc Interv Ther*. 2025;40:998–1000.
 
 3. Nishizawa T, Nawa N, Mizuno A, [Suzuki T]{.cv-name}, Arioka H, Fujiwara T. Association between low income and ICU delirium among critically ill older patients: a retrospective cohort study in Japan. *Anaesth Crit Care Pain Med*. 2025;44:101523.
 
-4. Tsukada YT, Aoki-Kamiya C, Mizuno A, Nakayama A, Ide T, Aoyama R, et al. JCS/JCC/JACR/JATS 2024 guideline on cardiovascular practice with consideration for diversity, equity, and inclusion. *J Cardiol*. 2025;85:510–574.
+4. Tsukada YT, Aoki-Kamiya C, Mizuno A, Nakayama A, Ide T, Aoyama R, Honye J, Hoshina K, Ikegame T, Inoue K, Bando YK, Kataoka M, Kondo N, Maemura K, Makaya M, Masumori N, Mito A, Miyauchi M, Miyazaki A, Nakano Y, Nakao YM, Nakatsuka M, Nakayama T, Oginosawa Y, Ohba N, Otsuka M, Okaniwa H, Saito A, Saito K, Sakata Y, Harada-Shiba M, Soejima K, Takahashi S, Takahashi T, Tanaka T, Wada Y, Watanabe Y, Yano Y, Yoshida M, Yoshikawa T, Yoshimatsu J, Abe T, Dai Z, Endo A, Fukuda-Doi M, Ito-Hagiwara K, Harima A, Hirakawa K, Hosokawa K, Iizuka G, Ikeda S, Ishii N, Izawa KP, Kagiyama N, Umeda-Kameyama Y, Kanki S, Kato K, Komuro A, Konagai N, Konishi Y, Nishizaki F, Noma S, Norimatsu T, Numao Y, Oishi S, Okubo K, Ohmori T, Otaki Y, Shibata T, Shibuya J, Shimbo M, Shiomura R, Sugiyama K, [Suzuki T]{.cv-name}, Tajima E, Tsukihashi A, Yasui H, Amano K, Kohsaka S, Minamino T, Nagai R, Setoguchi S, Terada K, Yumino D, Tomoike H, Japanese Circulation Society Joint Working Group. JCS/JCC/JACR/JATS 2024 guideline on cardiovascular practice with consideration for diversity, equity, and inclusion. *J Cardiol*. 2025;85:510–574.
 
 ### 2024
 
-5. Fukui S, Okada M, Shinozaki T, [Suzuki T]{.cv-name}, Nakai T, Ozawa H, et al. Weight reduction and target serum urate level: a longitudinal study of annual medical examination. *Arthritis Rheumatol*. 2024. doi:10.1002/art.43027
+5. Fukui S, Okada M, Shinozaki T, [Suzuki T]{.cv-name}, Nakai T, Ozawa H, Tamaki H, Kishimoto M, Hasegawa H, Matsuda T, Marrugo J, Tedeschi SK, Choi HK, Solomon DH. Weight reduction and target serum urate level: a longitudinal study of annual medical examination. *Arthritis Rheumatol*. 2024. doi:10.1002/art.43027
 
-6. Asano T, Tanigaki T, Hoshino M, Yasunaga M, Nonaka H, Emori H, et al. Quantitative flow ratio versus fractional flow reserve for Heart Team decision-making in multivessel disease: the randomised, multicentre DECISION QFR trial. *EuroIntervention*. 2024;20:561–570.
+6. Asano T, Tanigaki T, Hoshino M, Yasunaga M, Nonaka H, Emori H, Katagiri Y, Miyazaki Y, Sotomi Y, Kogame N, Kuramitsu S, Saito A, Miyata K, Takaoka Y, Kanie T, Yamasaki M, Yoshino K, Wakabayashi N, Ouchi K, Kodama H, Shiina Y, Tamaki R, Nishihata Y, Masuda K, [Suzuki T]{.cv-name}, Reiber JHC, Okamura T, Higuchi Y, Kakuta T, Misumi H, Abe K, Komiyama N, Tanabe K, Matsuo H, Qfr Investigators OBOTD. Quantitative flow ratio versus fractional flow reserve for Heart Team decision-making in multivessel disease: the randomised, multicentre DECISION QFR trial. *EuroIntervention*. 2024;20:561–570.
 
-7. Isa K, [Suzuki T]{.cv-name}, Nomura S, Miyoshi T, Fujita K, Kubo T, et al. Demographic determinants influencing the adoption of genetic testing for cardiovascular diseases in Japan — insights from a large-scale online survey. *Circ Rep*. 2024;6:178–182.
+7. Isa K, [Suzuki T]{.cv-name}, Nomura S, Miyoshi T, Fujita K, Kubo T, Yoneoka D, Mizuno A. Demographic determinants influencing the adoption of genetic testing for cardiovascular diseases in Japan — insights from a large-scale online survey. *Circ Rep*. 2024;6:178–182.
 
-8. Okazaki M, [Suzuki T]{.cv-name}, Mizuno A, Ikegame T, Ito N, Onoda M, et al. Propelling nurse-led structured intervention to enhance self-care among patients with chronic heart failure (PROACT-HF): a cluster randomized controlled trial study protocol. *J Pers Med*. 2024;14:832.
+8. Okazaki M, [Suzuki T]{.cv-name}, Mizuno A, Ikegame T, Ito N, Onoda M, Miyawaki I, Moriyama Y, Yabuki T, Yamada S, Yoneoka D, Iwasawa Y, Tagami K, Yoshikawa K. Propelling nurse-led structured intervention to enhance self-care among patients with chronic heart failure (PROACT-HF): a cluster randomized controlled trial study protocol. *J Pers Med*. 2024;14:832.
 
-9. Watanabe S, Izumino H, Takatani Y, Tsutsumi R, [Suzuki T]{.cv-name}, Tatsumi H, et al. Effects of energy delivery guided by indirect calorimetry in critically ill patients: a systematic review and meta-analysis. *Nutrients*. 2024;16:1452.
+9. Watanabe S, Izumino H, Takatani Y, Tsutsumi R, [Suzuki T]{.cv-name}, Tatsumi H, Yamamoto R, Sato T, Miyagi T, Miyajima I, Nakamura K, Higashibeppu N, Kotani J. Effects of energy delivery guided by indirect calorimetry in critically ill patients: a systematic review and meta-analysis. *Nutrients*. 2024;16:1452.
 
 ### 2022
 
 10. Ishikawa K, Matsuo T, [Suzuki T]{.cv-name}, Kawai F, Uehara Y, Mori N. Penicillin- and third-generation cephalosporin-resistant strains of *Streptococcus pneumoniae* meningitis: case report and literature review. *J Infect Chemother*. 2022;28:663–668.
 
-11. Miyata K, Asano T, Saito A, Abe K, Tanigaki T, Hoshino M, et al. Heart Team risk assessment with angiography-derived fractional flow reserve determining the optimal revascularization strategy in patients with multivessel disease: trial design and rationale for the DECISION QFR randomized trial. *Clin Cardiol*. 2022;45:605–613.
+11. Miyata K, Asano T, Saito A, Abe K, Tanigaki T, Hoshino M, Kobayashi T, Takaoka Y, Kanie T, Yamasaki M, Yoshino K, Wakabayashi N, Ouchi K, Kodama H, Shiina Y, Tamaki R, Nishihata Y, Masuda K, [Suzuki T]{.cv-name}, Nonaka H, Emori H, Katagiri Y, Miyazaki Y, Sotomi Y, Yasunaga M, Kogame N, Kuramitsu S, Reiber JHC, Okamura T, Higuchi Y, Kakuta T, Misumi H, Komiyama N, Matsuo H, Tanabe K, DECISION QFR investigators. Heart Team risk assessment with angiography-derived fractional flow reserve determining the optimal revascularization strategy in patients with multivessel disease: trial design and rationale for the DECISION QFR randomized trial. *Clin Cardiol*. 2022;45:605–613.
 
 ### 2021
 
-12. Kanie T, Mizuno A, Takaoka Y, [Suzuki T]{.cv-name}, Yoneoka D, Nishikawa Y, et al. Dipeptidyl peptidase-4 inhibitors, glucagon-like peptide 1 receptor agonists and sodium-glucose co-transporter-2 inhibitors for people with cardiovascular disease: a network meta-analysis. *Cochrane Database Syst Rev*. 2021;10:CD013650.
+12. Kanie T, Mizuno A, Takaoka Y, [Suzuki T]{.cv-name}, Yoneoka D, Nishikawa Y, Tam WWS, Morze J, Rynkiewicz A, Xin Y, Wu O, Providencia R, Kwong JS. Dipeptidyl peptidase-4 inhibitors, glucagon-like peptide 1 receptor agonists and sodium-glucose co-transporter-2 inhibitors for people with cardiovascular disease: a network meta-analysis. *Cochrane Database Syst Rev*. 2021;10:CD013650.
 
-13. Matsuo T, Saito A, Kawai F, Ishikawa K, Hasegawa R, [Suzuki T]{.cv-name}, et al. Use of PCR in the diagnosis of pericardial amebiasis: a case report and systematic review of the literature. *BMC Infect Dis*. 2021;21:960.
+13. Matsuo T, Saito A, Kawai F, Ishikawa K, Hasegawa R, [Suzuki T]{.cv-name}, Fujino T, Kinoshita K, Asano T, Mizuno A, Yagita K, Komiyama N, Uehara Y, Mori N. Use of PCR in the diagnosis of pericardial amebiasis: a case report and systematic review of the literature. *BMC Infect Dis*. 2021;21:960.
 
 ### 2018
 
-14. Kanie T, Mizuno A, Kawai F, Iri T, [Suzuki T]{.cv-name}, Oshima S, et al. Bibliographic title search for medical cardiological "signs" (eponyms). *J Gen Fam Med*. 2018;19:223–225.
+14. Kanie T, Mizuno A, Kawai F, Iri T, [Suzuki T]{.cv-name}, Oshima S, Fukui S, Son R, Matsuo T. Bibliographic title search for medical cardiological "signs" (eponyms). *J Gen Fam Med*. 2018;19:223–225.
 
 ---
 

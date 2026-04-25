@@ -25,7 +25,10 @@ date: "April 2026"
 - **Name:** Takahiro Suzuki
 - **Degree:** M.D., M.P.H.
 - **Job Title:** Clinical Assistant Professor
-- **Affiliation:** Department of Cardiovascular Medicine, St. Luke's International Hospital
+- **Affiliations:**
+    - Department of Cardiovascular Medicine, St. Luke's International Hospital
+    - Department of Cardiology, Keio University
+    - Department of Public Health, Institute of Science Tokyo
 - **Skills:** Clinical cardiology, Interventional cardiology, Intensive care medicine, General internal medicine; medical research, medical writing, medical statistics (R)
 
 ---
@@ -40,7 +43,7 @@ date: "April 2026"
 
 ---
 
-## Appointments at Hospitals / Affiliated Institutions
+## Professional Experience
 
 | Year | Position | Department | Institution |
 |---|---|---|---|
@@ -50,6 +53,7 @@ date: "April 2026"
 | 2020–2022 | Clinical Fellow | Department of Cardiovascular Medicine | St. Luke's International Hospital, Tokyo, Japan |
 | 2023– | Educational Chief / Clinical Assistant Professor / Clinical Staff | Department of Cardiovascular Medicine | St. Luke's International Hospital, Tokyo, Japan |
 | 2023– | Joint Researcher | Department of Cardiology | Keio University, Tokyo, Japan |
+| 2024– | PhD Candidate | Department of Public Health | Institute of Science Tokyo, Tokyo, Japan |
 
 ---
 

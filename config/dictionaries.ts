@@ -32,6 +32,12 @@ export const dictionaries = {
             title: 'Books',
             items: [
                 {
+                    year: '2025',
+                    title: '循環器内科学レビュー 2025-\'26 (Cardiology Review 2025-26)',
+                    publisher: '総合医学社 (Sogo Igaku-sha)',
+                    link: 'https://www.sogo-igaku.co.jp/esp/prd479.html'
+                },
+                {
                     year: '2023',
                     title: '内科レジデントの鉄則 第4版 (Rules for Internal Medicine Residents, 4th Ed.)',
                     publisher: '医学書院 (Igaku-Shoin)',
@@ -40,8 +46,26 @@ export const dictionaries = {
                 {
                     year: '2022',
                     title: '心不全の緩和ケア (Palliative Care for Heart Failure)',
-                    publisher: '南江堂',
+                    publisher: '南江堂 (Nankodo)',
                     link: 'https://www.nankodo.co.jp/'
+                },
+                {
+                    year: '2021',
+                    title: '鑑別！1st impression 第3版 (Differential Diagnosis: 1st Impression, 3rd Ed., Cardiology)',
+                    publisher: 'メディックメディア (Medic Media)',
+                    link: 'https://store.medilink-study.com/products/detail/165'
+                },
+                {
+                    year: '2021',
+                    title: '内科ポケットレファランス 第3版 (Pocket Medicine, 7th Ed., Japanese translation)',
+                    publisher: 'メディカル・サイエンス・インターナショナル (MEDSi)',
+                    link: 'https://www.medsi.co.jp/products/detail/3790'
+                },
+                {
+                    year: '2021',
+                    title: 'フレームワークで考える内科診断 (Frameworks for Internal Medicine, Japanese translation)',
+                    publisher: 'メディカル・サイエンス・インターナショナル (MEDSi)',
+                    link: 'https://www.medsi.co.jp/products/detail/3800'
                 }
             ]
         },
@@ -192,6 +216,12 @@ export const dictionaries = {
             title: 'Books',
             items: [
                 {
+                    year: '2025',
+                    title: '循環器内科学レビュー 2025-\'26',
+                    publisher: '総合医学社',
+                    link: 'https://www.sogo-igaku.co.jp/esp/prd479.html'
+                },
+                {
                     year: '2023',
                     title: '内科レジデントの鉄則 第4版',
                     publisher: '医学書院',
@@ -202,6 +232,24 @@ export const dictionaries = {
                     title: '心不全の緩和ケア',
                     publisher: '南江堂',
                     link: 'https://www.nankodo.co.jp/'
+                },
+                {
+                    year: '2021',
+                    title: '鑑別！1st impression 第3版',
+                    publisher: 'メディックメディア',
+                    link: 'https://store.medilink-study.com/products/detail/165'
+                },
+                {
+                    year: '2021',
+                    title: '内科ポケットレファランス 第3版（Pocket Medicine 第7版 翻訳）',
+                    publisher: 'メディカル・サイエンス・インターナショナル',
+                    link: 'https://www.medsi.co.jp/products/detail/3790'
+                },
+                {
+                    year: '2021',
+                    title: 'フレームワークで考える内科診断（Frameworks for Internal Medicine 翻訳）',
+                    publisher: 'メディカル・サイエンス・インターナショナル',
+                    link: 'https://www.medsi.co.jp/products/detail/3800'
                 }
             ]
         },

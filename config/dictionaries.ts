@@ -41,13 +41,7 @@ export const dictionaries = {
                     year: '2023',
                     title: '内科レジデントの鉄則 第4版 (Rules for Internal Medicine Residents, 4th Ed.)',
                     publisher: '医学書院 (Igaku-Shoin)',
-                    link: 'https://www.igaku-shoin.co.jp/book/detail/111811'
-                },
-                {
-                    year: '2022',
-                    title: '心不全の緩和ケア (Palliative Care for Heart Failure)',
-                    publisher: '南江堂 (Nankodo)',
-                    link: 'https://www.nankodo.co.jp/'
+                    link: 'https://www.igaku-shoin.co.jp/book/detail/110802'
                 },
                 {
                     year: '2021',
@@ -225,13 +219,7 @@ export const dictionaries = {
                     year: '2023',
                     title: '内科レジデントの鉄則 第4版',
                     publisher: '医学書院',
-                    link: 'https://www.igaku-shoin.co.jp/book/detail/111811'
-                },
-                {
-                    year: '2022',
-                    title: '心不全の緩和ケア',
-                    publisher: '南江堂',
-                    link: 'https://www.nankodo.co.jp/'
+                    link: 'https://www.igaku-shoin.co.jp/book/detail/110802'
                 },
                 {
                     year: '2021',

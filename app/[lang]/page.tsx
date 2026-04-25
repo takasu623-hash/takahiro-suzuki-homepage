@@ -16,10 +16,10 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       <main>
         <Hero lang={lang} />
         <News lang={lang} />
-        <Books lang={lang} />
         <Career lang={lang} />
         <Research lang={lang} />
         <Presentations lang={lang} />
+        <Books lang={lang} />
         <Contact lang={lang} />
       </main>
       <Footer lang={lang} />

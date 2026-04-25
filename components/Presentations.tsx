@@ -53,12 +53,14 @@ export default function Presentations({ lang }: { lang: string }) {
                         <div key={idx} className="presentation-card">
                             <div className="presentation-meta">
                                 <span className="presentation-year">{p.year}</span>
-                                <span
-                                    className="presentation-format"
-                                    style={{ backgroundColor: formatColor[p.format] }}
-                                >
-                                    {p.format}
-                                </span>
+                                {p.format === 'Invited Presentation' ? (
+                                    <span
+                                        className="presentation-format"
+                                        style={{ backgroundColor: formatColor[p.format] }}
+                                    >
+                                        {p.format}
+                                    </span>
+                                ) : null}
                             </div>
                             <h3 className="presentation-title">{p.title}</h3>
                             <p className="presentation-conference">

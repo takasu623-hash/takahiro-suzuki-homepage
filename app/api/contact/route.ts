@@ -29,16 +29,24 @@ export async function POST(req: Request) {
             })
         });
 
-        const result = await response.json().catch(() => null);
+        const rawText = await response.text();
+        let result: { success?: string | boolean; message?: string } | null = null;
+        try { result = JSON.parse(rawText); } catch { /* non-JSON */ }
 
         if (response.ok && result?.success !== "false" && result?.success !== false) {
             return NextResponse.json({ success: true });
         } else {
-            console.error("formsubmit.co error:", response.status, result);
-            return NextResponse.json({ error: result?.message ?? "Failed to forward email." }, { status: 500 });
+            console.error("formsubmit.co error:", response.status, rawText);
+            return NextResponse.json({
+                error: result?.message ?? "Failed to forward email.",
+                debug: { status: response.status, body: rawText.slice(0, 500) }
+            }, { status: 500 });
         }
     } catch (error) {
         console.error("Contact API error:", error);
-        return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
+        return NextResponse.json({
+            error: "Internal Server Error",
+            debug: error instanceof Error ? error.message : String(error)
+        }, { status: 500 });
     }
 }

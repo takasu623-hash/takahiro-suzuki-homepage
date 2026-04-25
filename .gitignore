@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# legacy backup folder (kept locally for reference, not deployed)
+/gravitic-tyson-backup
+
+# stray local screenshots at root
+/Screenshot*.png

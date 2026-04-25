@@ -17,13 +17,51 @@ html, body {
 }
 
 h1 {
-  font-size: 22pt;
+  font-size: 20pt;
   font-weight: 700;
-  margin: 0 0 4pt 0;
+  margin: 0 0 6pt 0;
   letter-spacing: 0.2pt;
   color: #0a2540;
-  border-bottom: 2px solid #0a2540;
-  padding-bottom: 4pt;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5pt;
+  text-underline-offset: 4pt;
+  padding-bottom: 0;
+}
+
+/* Header block: photo + text side by side */
+.cv-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 14mm;
+  margin-bottom: 6pt;
+}
+
+.cv-header-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.cv-portrait {
+  width: 32mm;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 2mm;
+  object-fit: cover;
+}
+
+/* Pandoc wraps standalone images in <p>; neutralize its margins so the photo sits cleanly in the flex row */
+.cv-header > p {
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.cv-doc-label {
+  font-size: 9pt;
+  letter-spacing: 2pt;
+  color: #64748b;
+  text-transform: uppercase;
+  margin: 0 0 2pt 0;
+  font-weight: 600;
 }
 
 h2 {

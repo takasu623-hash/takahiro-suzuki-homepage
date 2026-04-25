@@ -4,12 +4,19 @@ author: "Takahiro Suzuki, M.D., M.P.H."
 date: "April 2026"
 ---
 
+::: {.cv-header}
+::: {.cv-header-text}
+<p class="cv-doc-label">CURRICULUM VITAE</p>
+
 # Takahiro Suzuki, M.D., M.P.H.
 
-**Affiliation:** Department of Cardiovascular Medicine, St. Luke's International Hospital
-**Address:** 9-1 Akashi-Chou, Chuo-ku, Tokyo, Japan
-**Phone:** +81-3-3541-5151
+**Affiliation:** Department of Cardiovascular Medicine, St. Luke's International Hospital\
+**Address:** 9-1 Akashi-Chou, Chuo-ku, Tokyo, Japan\
+**Phone:** +81-3-3541-5151\
 **Email:** takasu.623@gmail.com
+:::
+![](portrait.png){.cv-portrait}
+:::
 
 ---
 

@@ -132,7 +132,7 @@ export const dictionaries = {
             subtitle: 'Selected presentations at international and domestic cardiovascular conferences, including invited symposium talks.',
             tabInternational: 'International',
             tabDomestic: 'Domestic',
-            tabInvited: 'Invited Lectures',
+            tabInvited: 'Invited Presentations',
             countSuffix: 'presentations',
         },
         contact: {

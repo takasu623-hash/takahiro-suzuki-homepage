@@ -12,7 +12,7 @@ const formatColor: Record<PresentationFormat, string> = {
     'Oral': '#0a2540',
     'Poster': '#0891b2',
     'Moderated Poster': '#0d9488',
-    'Invited Lecture': '#b45309',
+    'Invited Presentation': '#b45309',
 };
 
 export default function Presentations({ lang }: { lang: string }) {

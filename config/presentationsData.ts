@@ -3,7 +3,7 @@ export type PresentationFormat =
     | 'Oral'
     | 'Poster'
     | 'Moderated Poster'
-    | 'Invited Lecture';
+    | 'Invited Presentation';
 
 export interface Presentation {
     year: string;
@@ -256,56 +256,56 @@ export const presentationsData = {
     invited: [
         {
             year: '2025',
-            format: 'Invited Lecture',
+            format: 'Invited Presentation',
             title: 'A collaborative project linking the National Clinical Database and quality indicators: exploratory attempts at nudge-based feedback in future J-PCI reporting',
             conference: 'Japanese Association of Cardiovascular Intervention and Therapeutics',
             location: 'Osaka, Japan',
         },
         {
             year: '2025',
-            format: 'Invited Lecture',
+            format: 'Invited Presentation',
             title: 'Reconsidering PCI strategies for coronary artery disease in Japan: insights from major landmark trials and real-world practice at our institution',
             conference: 'Japanese Association of Cardiovascular Intervention and Therapeutics',
             location: 'Osaka, Japan',
         },
         {
             year: '2025',
-            format: 'Invited Lecture',
+            format: 'Invited Presentation',
             title: 'Practice and challenges of heart team–based care for acute coronary syndrome complicated by cardiogenic shock',
             conference: 'Japanese Society for Coronary Artery Surgery',
             location: 'Utsunomiya, Japan',
         },
         {
             year: '2024',
-            format: 'Invited Lecture',
+            format: 'Invited Presentation',
             title: 'Examining the clinical-evidence gap in the ISCHEMIA / ORBITA-2 trials',
             conference: 'Japanese College of Cardiology',
             location: 'Sendai, Japan',
         },
         {
             year: '2024',
-            format: 'Invited Lecture',
+            format: 'Invited Presentation',
             title: 'Global landscape of quality improvement initiatives in percutaneous coronary intervention',
             conference: 'Japanese Association of Cardiovascular Intervention and Therapeutics',
             location: 'Sapporo, Japan',
         },
         {
             year: '2024',
-            format: 'Invited Lecture',
+            format: 'Invited Presentation',
             title: 'Quantifying physical activity through wearable technology',
             conference: 'Japanese Association of Cardiac Rehabilitation',
             location: 'Kobe, Japan',
         },
         {
             year: '2023',
-            format: 'Invited Lecture',
+            format: 'Invited Presentation',
             title: 'Risk stratification for renal dysfunction and bleeding in percutaneous coronary intervention — future approaches for perioperative complications',
             conference: 'Japanese Association of Cardiovascular Intervention and Therapeutics',
             location: 'Fukuoka, Japan',
         },
         {
             year: '2023',
-            format: 'Invited Lecture',
+            format: 'Invited Presentation',
             title: 'Social determinants of health and cardiovascular disease',
             conference: 'Japanese Circulation Society',
             location: 'Fukuoka, Japan',

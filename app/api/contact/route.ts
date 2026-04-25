@@ -7,13 +7,18 @@ export async function POST(req: Request) {
         const email = data.get('email');
         const message = data.get('message');
 
-        // Here we use formsubmit.co via a server-side fetch to keep the email address
-        // completely hidden from the client-side code and network requests.
+        // formsubmit.co rejects requests without an Origin/Referer header, so forward
+        // the browser's values when proxying server-side.
+        const origin = req.headers.get('origin') ?? new URL(req.url).origin;
+        const referer = req.headers.get('referer') ?? origin;
+
         const response = await fetch("https://formsubmit.co/ajax/takasu.623@gmail.com", {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',
-                'Accept': 'application/json'
+                'Accept': 'application/json',
+                'Origin': origin,
+                'Referer': referer
             },
             body: JSON.stringify({
                 name: name,
@@ -24,12 +29,16 @@ export async function POST(req: Request) {
             })
         });
 
-        if (response.ok) {
+        const result = await response.json().catch(() => null);
+
+        if (response.ok && result?.success !== "false" && result?.success !== false) {
             return NextResponse.json({ success: true });
         } else {
-            return NextResponse.json({ error: "Failed to forward email." }, { status: 500 });
+            console.error("formsubmit.co error:", response.status, result);
+            return NextResponse.json({ error: result?.message ?? "Failed to forward email." }, { status: 500 });
         }
     } catch (error) {
+        console.error("Contact API error:", error);
         return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
     }
 }

@@ -99,7 +99,7 @@ export default function Research({ lang }: { lang: string }) {
           )}
           <div style={{ marginTop: "32px", borderRadius: "16px", overflow: "hidden", boxShadow: "0 10px 30px rgba(0,0,0,0.1)" }}>
             <Image
-              src="/research_header.png"
+              src="/research_header.jpg"
               alt="Medical Research"
               width={1200}
               height={500}
@@ -109,14 +109,34 @@ export default function Research({ lang }: { lang: string }) {
         </div>
 
         <div className="research-content">
-          <h3 className="research-group-title">{dict.tab1st}</h3>
+          <div className="research-group-header">
+            <span className="research-group-number">01</span>
+            <div>
+              <span className="research-group-label">Publications</span>
+              <h3 className="research-group-title">{dict.tab1st}</h3>
+            </div>
+            <span className="research-group-meta">
+              {(firstAuthorPapers.preventive?.length || 0)
+                + (firstAuthorPapers.acute?.length || 0)
+                + (firstAuthorPapers.sdoh?.length || 0)
+                + (firstAuthorPapers.quality?.length || 0)
+                + (firstAuthorPapers.others?.length || 0)} papers
+            </span>
+          </div>
           {renderPapers(firstAuthorPapers.preventive || [], "preventive")}
           {renderPapers(firstAuthorPapers.acute || [], "acute")}
           {renderPapers(firstAuthorPapers.sdoh || [], "sdoh")}
           {renderPapers(firstAuthorPapers.quality || [], "quality")}
           {renderPapers(firstAuthorPapers.others || [], "others")}
 
-          <h3 className="research-group-title" style={{ marginTop: "3rem" }}>{dict.tabCo}</h3>
+          <div className="research-group-header" style={{ marginTop: "4rem" }}>
+            <span className="research-group-number">02</span>
+            <div>
+              <span className="research-group-label">Publications</span>
+              <h3 className="research-group-title">{dict.tabCo}</h3>
+            </div>
+            <span className="research-group-meta">{coAuthorPapers.length} papers</span>
+          </div>
           <div className="theme-section">
             <div
               onClick={() => setCoAuthorExpanded(prev => !prev)}

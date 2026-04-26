@@ -279,6 +279,15 @@
     }
 }
 
+.research-group-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin: 0 0 var(--spacing-lg) 0;
+    padding-bottom: var(--spacing-sm);
+    border-bottom: 3px solid var(--color-accent);
+}
+
 .section-storyline {
     font-size: 1.05rem;
     line-height: 1.8;

@@ -7,8 +7,8 @@ import { papersData } from "../config/papersData";
 import "./Research.css";
 
 export default function Research({ lang }: { lang: string }) {
-  const [activeTab, setActiveTab] = useState<"1st" | "co">("1st");
   const [expandedThemes, setExpandedThemes] = useState<string[]>([]);
+  const [coAuthorExpanded, setCoAuthorExpanded] = useState(false);
   const dict = dictionaries[lang as Locale].research;
 
   const firstAuthorPapers = papersData.firstAuthor;
@@ -108,58 +108,61 @@ export default function Research({ lang }: { lang: string }) {
           </div>
         </div>
 
-        <div className="research-tabs">
-          <button
-            className={`tab-btn ${activeTab === "1st" ? "active" : ""}`}
-            onClick={() => setActiveTab("1st")}
-          >
-            {dict.tab1st}
-          </button>
-          <button
-            className={`tab-btn ${activeTab === "co" ? "active" : ""}`}
-            onClick={() => setActiveTab("co")}
-          >
-            {dict.tabCo}
-          </button>
-        </div>
-
         <div className="research-content">
-          {activeTab === "1st" ? (
-            <>
-              {renderPapers(firstAuthorPapers.preventive || [], "preventive")}
-              {renderPapers(firstAuthorPapers.acute || [], "acute")}
-              {renderPapers(firstAuthorPapers.sdoh || [], "sdoh")}
-              {renderPapers(firstAuthorPapers.quality || [], "quality")}
-              {renderPapers(firstAuthorPapers.registry || [], "registry")}
-              {renderPapers(firstAuthorPapers.others || [], "others")}
-            </>
-          ) : (
-            <div className="theme-section">
-              <div className="paper-list">
-                {coAuthorPapers.map((paper: any, index: number) => (
-                  <div key={index} className="paper-card animate-slide-up" style={{ animationDelay: `${index * 0.1}s` }}>
-                    <div className="paper-content">
-                      <h4 className="paper-title">
-                        <a href={paper.link} target="_blank" rel="noopener noreferrer">
-                          {paper.title}
-                        </a>
-                      </h4>
-                      <p className="paper-authors" style={{ fontSize: "1rem", color: "var(--color-text)", margin: "4px 0" }}>{paper.authors}</p>
-                      <div className="paper-meta" style={{ marginBottom: "8px", fontWeight: "600" }}>
-                        <span className="paper-journal">{paper.journal}</span>
-                        <span className="paper-year" style={{ marginLeft: "8px" }}>{paper.year}</span>
-                      </div>
-                      {paper.description && (
-                        <p className="paper-description" style={{ fontSize: "0.95rem", color: "var(--color-text-muted)", lineHeight: "1.5", margin: "0 0 12px 0" }}>
-                          {paper.description}
-                        </p>
-                      )}
-                    </div>
-                  </div>
-                ))}
+          <h3 className="research-group-title">{dict.tab1st}</h3>
+          {renderPapers(firstAuthorPapers.preventive || [], "preventive")}
+          {renderPapers(firstAuthorPapers.acute || [], "acute")}
+          {renderPapers(firstAuthorPapers.sdoh || [], "sdoh")}
+          {renderPapers(firstAuthorPapers.quality || [], "quality")}
+          {renderPapers(firstAuthorPapers.others || [], "others")}
+
+          <h3 className="research-group-title" style={{ marginTop: "3rem" }}>{dict.tabCo}</h3>
+          <div className="theme-section">
+            <div
+              onClick={() => setCoAuthorExpanded(prev => !prev)}
+              style={{ cursor: "pointer", display: "flex", alignItems: "center", padding: "16px", borderRadius: "12px", background: "rgba(255,255,255,0.6)", border: "1px solid rgba(0,0,0,0.05)" }}
+            >
+              <div style={{ flex: 1 }}>
+                <h4 style={{ margin: 0, color: coAuthorExpanded ? "var(--color-primary)" : "var(--color-text)" }}>
+                  {coAuthorPapers.length} co-authored publications
+                </h4>
+              </div>
+              <div style={{ marginLeft: "16px", display: "flex", alignItems: "center", justifyContent: "center", width: "40px", height: "40px", borderRadius: "50%", background: coAuthorExpanded ? "var(--color-primary)" : "var(--color-background-alt)", color: coAuthorExpanded ? "white" : "var(--color-text)", fontSize: "1.5rem", fontWeight: "bold", transition: "all 0.3s ease" }}>
+                {coAuthorExpanded ? "−" : "＋"}
               </div>
             </div>
-          )}
+            <div style={{
+              display: "grid",
+              gridTemplateRows: coAuthorExpanded ? "1fr" : "0fr",
+              transition: "grid-template-rows 0.4s ease-in-out",
+            }}>
+              <div style={{ overflow: "hidden" }}>
+                <div className="paper-list" style={{ marginTop: "1.5rem" }}>
+                  {coAuthorPapers.map((paper: any, index: number) => (
+                    <div key={index} className="paper-card animate-slide-up" style={{ animationDelay: `${index * 0.1}s` }}>
+                      <div className="paper-content">
+                        <h4 className="paper-title">
+                          <a href={paper.link} target="_blank" rel="noopener noreferrer">
+                            {paper.title}
+                          </a>
+                        </h4>
+                        <p className="paper-authors" style={{ fontSize: "1rem", color: "var(--color-text)", margin: "4px 0" }}>{paper.authors}</p>
+                        <div className="paper-meta" style={{ marginBottom: "8px", fontWeight: "600" }}>
+                          <span className="paper-journal">{paper.journal}</span>
+                          <span className="paper-year" style={{ marginLeft: "8px" }}>{paper.year}</span>
+                        </div>
+                        {paper.description && (
+                          <p className="paper-description" style={{ fontSize: "0.95rem", color: "var(--color-text-muted)", lineHeight: "1.5", margin: "0 0 12px 0" }}>
+                            {paper.description}
+                          </p>
+                        )}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

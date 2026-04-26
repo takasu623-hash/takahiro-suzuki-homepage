@@ -137,6 +137,33 @@
     font-style: italic;
 }
 
+.presentation-card-link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.presentation-card-link:hover {
+    border-left-color: var(--color-accent-hover);
+}
+
+.presentation-link-hint {
+    margin-left: auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    color: var(--color-accent-hover);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.presentation-link-hint .external-icon {
+    width: 12px;
+    height: 12px;
+}
+
 @media (max-width: 768px) {
     .presentations-list {
         grid-template-columns: 1fr;

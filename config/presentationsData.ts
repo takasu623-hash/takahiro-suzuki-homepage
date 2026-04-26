@@ -11,6 +11,7 @@ export interface Presentation {
     title: string;
     conference: string;
     location?: string;
+    link?: string;
 }
 
 export const presentationsData = {
@@ -20,12 +21,14 @@ export const presentationsData = {
             format: 'Poster',
             title: 'Nonfatal adverse events and risk for subsequent mortality in patients undergoing percutaneous coronary intervention',
             conference: 'ACC (American College of Cardiology) Scientific Sessions',
+            link: 'https://pubmed.ncbi.nlm.nih.gov/41837917/',
         },
         {
             year: '2026',
             format: 'Poster',
             title: 'Prognostic implications of bleeding and ischemic complications in acute myocardial infarction-related cardiogenic shock with Impella',
             conference: 'ACC (American College of Cardiology) Scientific Sessions',
+            link: 'https://pubmed.ncbi.nlm.nih.gov/41904791/',
         },
         {
             year: '2025',
@@ -33,6 +36,7 @@ export const presentationsData = {
             title: 'Left-digit bias in serum creatinine levels and contrast administration: a nationwide cohort study using a Japanese percutaneous coronary intervention registry',
             conference: 'ESC (European Society of Cardiology)',
             location: 'Madrid, Spain',
+            link: 'https://pubmed.ncbi.nlm.nih.gov/40654259/',
         },
         {
             year: '2024',
@@ -40,6 +44,7 @@ export const presentationsData = {
             title: 'Prognostic implications of contrast-associated acute kidney injury after percutaneous coronary intervention: a stratified risk score assessment',
             conference: 'ACC (American College of Cardiology) Scientific Sessions',
             location: 'Atlanta, USA',
+            link: 'https://pubmed.ncbi.nlm.nih.gov/40713149/',
         },
         {
             year: '2024',
@@ -47,6 +52,7 @@ export const presentationsData = {
             title: 'Association between in-hospital haemoglobin drop with or without overt bleeding and long-term clinical outcomes after percutaneous coronary intervention',
             conference: 'ESC (European Society of Cardiology)',
             location: 'London, UK',
+            link: 'https://pubmed.ncbi.nlm.nih.gov/41344743/',
         },
         {
             year: '2023',
@@ -61,12 +67,14 @@ export const presentationsData = {
             title: 'Coronary artery calcium and all-cause mortality in the Multicenter AIDS Cohort Study (MACS)',
             conference: 'AHA (American Heart Association) Scientific Sessions',
             location: 'Philadelphia, USA',
+            link: 'https://pubmed.ncbi.nlm.nih.gov/40199704/',
         },
         {
             year: '2023',
             format: 'Poster',
             title: 'The off-hour effect on clinical outcomes of ST-segment elevation myocardial infarction complicated by cardiogenic shock patients treated with Impella: insights from J-PVAD',
             conference: 'AHA (American Heart Association) Scientific Sessions',
+            link: 'https://eurointervention.pcronline.com/article/impact-of-off-hours-admissions-in-stemi-related-cardiogenic-shock-managed-with-microaxial-flow-pump-ndash-insights-from-j-pvad',
         },
         {
             year: '2022',
@@ -88,6 +96,7 @@ export const presentationsData = {
             title: 'Left-digit bias in out-of-hospital cardiac arrest — JCS-ReSS',
             conference: 'AHA Resuscitation Science Symposium',
             location: 'Chicago, USA',
+            link: 'https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0305577',
         },
     ] as Presentation[],
 

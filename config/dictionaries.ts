@@ -116,7 +116,7 @@ export const dictionaries = {
                 },
                 {
                     year: '2023 - Present',
-                    title: 'Joint Researcher, Department of Cardiovascular Medicine',
+                    title: 'Joint Researcher, Department of Cardiology',
                     institution: 'Keio University',
                 },
                 {

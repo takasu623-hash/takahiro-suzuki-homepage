@@ -49,26 +49,45 @@ export default function Presentations({ lang }: { lang: string }) {
                 </div>
 
                 <div className="presentations-list">
-                    {current.data.map((p, idx) => (
-                        <div key={idx} className="presentation-card">
-                            <div className="presentation-meta">
-                                <span className="presentation-year">{p.year}</span>
-                                {p.format === 'Invited Presentation' ? (
-                                    <span
-                                        className="presentation-format"
-                                        style={{ backgroundColor: formatColor[p.format] }}
-                                    >
-                                        {p.format}
-                                    </span>
-                                ) : null}
-                            </div>
-                            <h3 className="presentation-title">{p.title}</h3>
-                            <p className="presentation-conference">
-                                {p.conference}
-                                {p.location ? <span className="presentation-location"> · {p.location}</span> : null}
-                            </p>
-                        </div>
-                    ))}
+                    {current.data.map((p, idx) => {
+                        const inner = (
+                            <>
+                                <div className="presentation-meta">
+                                    <span className="presentation-year">{p.year}</span>
+                                    {p.format === 'Invited Presentation' ? (
+                                        <span
+                                            className="presentation-format"
+                                            style={{ backgroundColor: formatColor[p.format] }}
+                                        >
+                                            {p.format}
+                                        </span>
+                                    ) : null}
+                                    {p.link ? (
+                                        <span className="presentation-link-hint">
+                                            Abstract
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="external-icon">
+                                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                                <polyline points="15 3 21 3 21 9"></polyline>
+                                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                                            </svg>
+                                        </span>
+                                    ) : null}
+                                </div>
+                                <h3 className="presentation-title">{p.title}</h3>
+                                <p className="presentation-conference">
+                                    {p.conference}
+                                    {p.location ? <span className="presentation-location"> · {p.location}</span> : null}
+                                </p>
+                            </>
+                        );
+                        return p.link ? (
+                            <a key={idx} href={p.link} target="_blank" rel="noopener noreferrer" className="presentation-card presentation-card-link">
+                                {inner}
+                            </a>
+                        ) : (
+                            <div key={idx} className="presentation-card">{inner}</div>
+                        );
+                    })}
                 </div>
             </div>
         </section>

@@ -10,6 +10,10 @@ export const dictionaries = {
         },
         news: {
             title: 'News & Announcements',
+            showAll: 'View all news',
+            allTitle: 'All News & Announcements',
+            allSubtitle: 'Complete archive in chronological order',
+            backToHome: '← Back to home',
             items: [
                 {
                     date: '2026-03-29',
@@ -199,6 +203,10 @@ export const dictionaries = {
         },
         news: {
             title: 'News & Announcements',
+            showAll: 'すべてのお知らせを見る',
+            allTitle: 'お知らせ一覧',
+            allSubtitle: 'すべてのお知らせを時系列で表示',
+            backToHome: '← トップページに戻る',
             items: [
                 {
                     date: '2026-03-29',

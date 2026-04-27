@@ -1,10 +1,22 @@
 "use client";
 
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import Image from "next/image";
 import { dictionaries, Locale } from "../config/dictionaries";
 import { papersData } from "../config/papersData";
 import "./Research.css";
+
+const SELF_AUTHOR_REGEX = /(\bSuzuki T\b)/g;
+
+function renderAuthors(authors: string) {
+  return authors.split(SELF_AUTHOR_REGEX).map((part, i) =>
+    part === "Suzuki T" ? (
+      <span key={i} className="author-self">{part}</span>
+    ) : (
+      <Fragment key={i}>{part}</Fragment>
+    )
+  );
+}
 
 export default function Research({ lang }: { lang: string }) {
   const [expandedThemes, setExpandedThemes] = useState<string[]>([]);
@@ -68,7 +80,7 @@ export default function Research({ lang }: { lang: string }) {
                         {paper.title}
                       </a>
                     </h4>
-                    <p className="paper-authors" style={{ fontSize: "1rem", color: "var(--color-text)", margin: "4px 0" }}>{paper.authors}</p>
+                    <p className="paper-authors" style={{ fontSize: "1rem", color: "var(--color-text)", margin: "4px 0" }}>{renderAuthors(paper.authors)}</p>
                     <div className="paper-meta" style={{ marginBottom: "8px", fontWeight: "600" }}>
                       <span className="paper-journal">{paper.journal}</span>
                       <span className="paper-year" style={{ marginLeft: "8px" }}>{paper.year}</span>
@@ -166,7 +178,7 @@ export default function Research({ lang }: { lang: string }) {
                             {paper.title}
                           </a>
                         </h4>
-                        <p className="paper-authors" style={{ fontSize: "1rem", color: "var(--color-text)", margin: "4px 0" }}>{paper.authors}</p>
+                        <p className="paper-authors" style={{ fontSize: "1rem", color: "var(--color-text)", margin: "4px 0" }}>{renderAuthors(paper.authors)}</p>
                         <div className="paper-meta" style={{ marginBottom: "8px", fontWeight: "600" }}>
                           <span className="paper-journal">{paper.journal}</span>
                           <span className="paper-year" style={{ marginLeft: "8px" }}>{paper.year}</span>

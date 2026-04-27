@@ -345,3 +345,10 @@
     border-radius: var(--radius-md);
     border-left: 4px solid var(--color-accent);
 }
+.author-self {
+    color: #000000;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+

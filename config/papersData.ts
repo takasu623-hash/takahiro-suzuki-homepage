@@ -316,7 +316,8 @@ export const papersData = {
             journal: "Cardiovasc Interv Ther",
             year: "2025",
             authors: "Miyata K, Asano T, Suzuki T, Ono M, Aoki J",
-            link: "https://pubmed.ncbi.nlm.nih.gov/",
+            pmid: "40500554",
+            link: "https://pubmed.ncbi.nlm.nih.gov/40500554/",
             description: "Evaluated the utility of optical frequency-domain imaging for identifying major dissections and ensuring optimal lumen expansion after intravascular lithotripsy."
         },
         {

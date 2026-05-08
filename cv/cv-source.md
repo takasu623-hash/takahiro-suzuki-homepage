@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 author: "Takahiro Suzuki, M.D., M.P.H."
-date: "April 2026"
+date: "Updated: May 2026"
 ---
 
 ::: {.cv-header}

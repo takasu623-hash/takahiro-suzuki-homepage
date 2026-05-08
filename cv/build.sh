@@ -31,6 +31,7 @@ echo "→ Markdown → HTML"
   --standalone \
   --css=cv-style.css \
   --metadata title="Curriculum Vitae — Takahiro Suzuki" \
+  --metadata date="Updated: $(date +'%B %Y')" \
   -o cv/cv.html
 
 echo "→ HTML → PDF (Chrome headless)"

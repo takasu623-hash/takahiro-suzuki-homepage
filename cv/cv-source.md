@@ -24,9 +24,9 @@ author: "Takahiro Suzuki, M.D., M.P.H."
 - **Degree:** M.D., M.P.H.
 - **Job Title:** Clinical Assistant Professor
 - **Affiliations:**
-    - Department of Cardiovascular Medicine, St. Luke's International Hospital
-    - Department of Cardiology, Keio University
-    - Department of Public Health, Institute of Science Tokyo
+    - Educational Chief / Clinical Assistant Professor / Clinical Staff, Department of Cardiovascular Medicine, St. Luke's International Hospital
+    - Joint Researcher, Department of Cardiology, Keio University
+    - PhD Candidate, Department of Public Health, Institute of Science Tokyo
 - **Skills:** Clinical cardiology, Interventional cardiology, Intensive care medicine, General internal medicine; medical research, medical writing, medical statistics (R)
 
 ---

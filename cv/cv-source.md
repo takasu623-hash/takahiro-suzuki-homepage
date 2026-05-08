@@ -228,9 +228,9 @@ date: "April 2026"
 
 | Year | Format | Title | Conference |
 |---|---|---|---|
-| 2026 | Moderated Poster | Menopausal transition and cardiovascular risk factor trajectories: a Japanese annual health checkup cohort | ESC (European Society of Cardiology), Munich, Germany |
 | 2026 | Oral | 18-year trends in outcome and resuscitation process of out-of-hospital cardiac arrest by time of day | ESC (European Society of Cardiology), Munich, Germany |
 | 2026 | Oral | Effect of gain- and loss-framed gamification with or without social support on daily step counts in patients with cardiovascular disease: the FOOTSTEPS randomized controlled trial | ESC (European Society of Cardiology), Munich, Germany |
+| 2026 | Moderated Poster | Menopausal transition and cardiovascular risk factor trajectories: a Japanese annual health checkup cohort | ESC (European Society of Cardiology), Munich, Germany |
 | 2026 | Poster | Nonfatal adverse events and risk for subsequent mortality in patients undergoing percutaneous coronary intervention | ACC (American College of Cardiology) Scientific Sessions |
 | 2026 | Poster | Prognostic implications of bleeding and ischemic complications in acute myocardial infarction-related cardiogenic shock with Impella | ACC (American College of Cardiology) Scientific Sessions |
 | 2025 | Moderated Poster | Left-digit bias in serum creatinine levels and contrast administration: a nationwide cohort study using a Japanese percutaneous coronary intervention registry | ESC (European Society of Cardiology), Madrid, Spain |

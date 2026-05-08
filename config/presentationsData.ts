@@ -18,13 +18,6 @@ export const presentationsData = {
     international: [
         {
             year: '2026',
-            format: 'Moderated Poster',
-            title: 'Menopausal transition and cardiovascular risk factor trajectories: a Japanese annual health checkup cohort',
-            conference: 'ESC (European Society of Cardiology)',
-            location: 'Munich, Germany',
-        },
-        {
-            year: '2026',
             format: 'Oral',
             title: '18-year trends in outcome and resuscitation process of out-of-hospital cardiac arrest by time of day',
             conference: 'ESC (European Society of Cardiology)',
@@ -34,6 +27,13 @@ export const presentationsData = {
             year: '2026',
             format: 'Oral',
             title: 'Effect of gain- and loss-framed gamification with or without social support on daily step counts in patients with cardiovascular disease: the FOOTSTEPS randomized controlled trial',
+            conference: 'ESC (European Society of Cardiology)',
+            location: 'Munich, Germany',
+        },
+        {
+            year: '2026',
+            format: 'Moderated Poster',
+            title: 'Menopausal transition and cardiovascular risk factor trajectories: a Japanese annual health checkup cohort',
             conference: 'ESC (European Society of Cardiology)',
             location: 'Munich, Germany',
         },

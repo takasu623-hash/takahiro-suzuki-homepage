@@ -15,7 +15,6 @@ date: "April 2026"
 **Phone:** +81-3-3541-5151\
 **Email:** takasu.623@gmail.com
 :::
-![](portrait.png){.cv-portrait}
 :::
 
 ---

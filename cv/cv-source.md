@@ -77,7 +77,8 @@ author: "Takahiro Suzuki, M.D., M.P.H."
 |---|---|---|---|
 | 2016 | Best Resident | Department of Internal Medicine | St. Luke's International Hospital, Tokyo, Japan |
 | 2017 | Best Award | Academia 2018 | St. Luke's International Hospital, Tokyo, Japan |
-| 2020 | Case Report Award | The Regional Meeting of the Japanese Circulation Society, Tokyo, Japan | The Japanese Circulation Society |
+| 2020 | Case Report Award (Excellence Award) | The 257th Kanto-Koshinetsu Regional Meeting of the Japanese Circulation Society, Tokyo, Japan | The Japanese Circulation Society |
+| 2026 | Young Investigator Award, First Prize | The 48th Annual Scientific Meeting of the Japanese Society of Hypertension, Utsunomiya, Japan | The Japanese Society of Hypertension |
 
 ---
 
@@ -88,6 +89,8 @@ author: "Takahiro Suzuki, M.D., M.P.H."
 | 2023 | J-PVAD Publication Award 2023 | Japan VAD Council, IMPELLA Committee |
 | 2024 | CVIT Travel Grant for Young Members Attending International Scientific Meetings | Japanese Association of Cardiovascular Intervention and Therapeutics |
 | 2025 | J-PVAD Publication Award 2025 | Japan VAD Council, IMPELLA Committee |
+| 2025 | CVIT Travel Grant for Young Members Attending International Scientific Meetings (Sapporo Fund), ESC Congress 2025 | Japanese Association of Cardiovascular Intervention and Therapeutics |
+| 2026 | The 5th CVIT Academic Support (Research Grant Program) | Japanese Association of Cardiovascular Intervention and Therapeutics |
 | 2026 | Young Research Support Program of the St. Luke's Health Science Research Fund (YR2025-02) | St. Luke's International Hospital, Tokyo, Japan |
 
 ---
@@ -308,6 +311,9 @@ author: "Takahiro Suzuki, M.D., M.P.H."
 6. [Suzuki T]{.cv-name}. *The Rules for Internal Medicine Residents*, 4th edition. Igaku-Shoin, 2024. [in Japanese]
 7. [Suzuki T]{.cv-name}. Hypertension: topics to utilize in daily clinical practice of hypertension — digital hypertension and digit bias. *Medical Practice*. 2024;41(4):540–544. [in Japanese]
 8. [Suzuki T]{.cv-name}, Mizuno A. The role of social determinants of health (SDOH). *Cardiology Review 2025–2026*. Sougou Igakusha, 2025.
+9. [Suzuki T]{.cv-name}. Target daily step count for cardiovascular prevention; Alcohol and heart disease: is light drinking good or bad? In: Asano T, ed. *Ebi-gyu: Evidence in Cardiovascular Practice, Compactly Summarized*. Medical View, March 2026, sections 8-7 and 8-8. [in Japanese]
+10. [Suzuki T]{.cv-name}, Mizuno A. Sex differences in cardiovascular disease from an epidemiological perspective: Japan versus the world. *Heart View*. 2026;30(9):898–904. Medical View. [in Japanese]
+11. [Suzuki T]{.cv-name}, Mizuno A. Is health determined by the environment? Social determinants of health. In: Kinugasa Y, ed. *Practical Handbook of Regional Heart Failure Care*. Chugai-Igakusha, October 2026, Chapter II-8. [in Japanese]
 
 ---
 

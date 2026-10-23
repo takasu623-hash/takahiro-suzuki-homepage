@@ -16,6 +16,36 @@ export const dictionaries = {
             backToHome: '← Back to home',
             items: [
                 {
+                    date: '2026-10-16',
+                    title: 'Contributed a chapter on social determinants of health to 今日から実践！心不全地域連携ハンドブック (Heart Failure Regional Care Handbook), published by Chugai-Igakusha',
+                    link: 'https://chugaiigaku.jp/np/isbn/9784498136922/'
+                },
+                {
+                    date: '2026-10-11',
+                    title: 'Received the Young Investigator Award (First Prize) at the 48th Annual Scientific Meeting of the Japanese Society of Hypertension',
+                    link: 'https://www.congre.co.jp/48jsh2026/yia/index.html'
+                },
+                {
+                    date: '2026-09-09',
+                    title: 'Article on sex differences in cardiovascular disease epidemiology (Japan vs. the world) published in Heart View (Sept 2026 special issue)',
+                    link: 'https://www.fujisan.co.jp/product/2029/b/2778268/'
+                },
+                {
+                    date: '2026-07-18',
+                    title: 'Selected for the 5th CVIT Academic Support research grant; recognized at CVIT 2026',
+                    link: 'https://www.cvit.jp/conference/award/cvit-academic-support.html'
+                },
+                {
+                    date: '2026-07-09',
+                    title: 'New paper published in Circulation Reports on subsequent thromboembolic and bleeding events after major bleeding on factor Xa inhibitors',
+                    link: 'https://doi.org/10.1253/circrep.CR-26-0099'
+                },
+                {
+                    date: '2026-03-28',
+                    title: 'Contributed to エビぎゅう 循環器診療のエビデンスをぎゅうっとまとめました (Cardiology Evidence Digest), published by Medical View',
+                    link: 'https://www.medicalview.co.jp/catalog/ISBN978-4-7583-2434-2.html'
+                },
+                {
                     date: '2026-03-29',
                     title: 'New paper published in Circulation: Cardiovascular Interventions on bleeding and ischemic complications in AMI-related cardiogenic shock managed with microaxial flow pump (J-PVAD)',
                     link: 'https://pubmed.ncbi.nlm.nih.gov/41904791/'
@@ -40,6 +70,18 @@ export const dictionaries = {
         books: {
             title: 'Books',
             items: [
+                {
+                    year: '2026',
+                    title: '今日から実践！ 心不全地域連携ハンドブック (Heart Failure Regional Care Handbook)',
+                    publisher: '中外医学社 (Chugai-Igakusha)',
+                    link: 'https://chugaiigaku.jp/np/isbn/9784498136922/'
+                },
+                {
+                    year: '2026',
+                    title: 'エビぎゅう 循環器診療のエビデンスをぎゅうっとまとめました (Cardiology Evidence Digest)',
+                    publisher: 'メジカルビュー社 (Medical View)',
+                    link: 'https://www.medicalview.co.jp/catalog/ISBN978-4-7583-2434-2.html'
+                },
                 {
                     year: '2026',
                     title: '内科レジデントマニュアル 第10版 (Internal Medicine Resident Manual, 10th Ed.)',
@@ -209,6 +251,36 @@ export const dictionaries = {
             backToHome: '← トップページに戻る',
             items: [
                 {
+                    date: '2026-10-16',
+                    title: '中外医学社『今日から実践！ 心不全地域連携ハンドブック』に「健康は環境で決まる？―健康の社会的決定要因」を分担執筆しました',
+                    link: 'https://chugaiigaku.jp/np/isbn/9784498136922/'
+                },
+                {
+                    date: '2026-10-11',
+                    title: '第48回日本高血圧学会総会で Young Investigator Award 最優秀賞を受賞しました',
+                    link: 'https://www.congre.co.jp/48jsh2026/yia/index.html'
+                },
+                {
+                    date: '2026-09-09',
+                    title: 'Heart View 2026年9月号 特集「循環器疾患の性差を考える」に「疫学からみた循環器疾患の性差：日本と世界の比較」を執筆しました',
+                    link: 'https://www.fujisan.co.jp/product/2029/b/2778268/'
+                },
+                {
+                    date: '2026-07-18',
+                    title: '第5回CVITアカデミックサポート（研究奨励金制度）に採択され、CVIT2026で表彰されました',
+                    link: 'https://www.cvit.jp/conference/award/cvit-academic-support.html'
+                },
+                {
+                    date: '2026-07-09',
+                    title: 'Circulation Reports に論文が掲載されました（Xa阻害薬内服中の大出血後の血栓塞栓・出血イベント）',
+                    link: 'https://doi.org/10.1253/circrep.CR-26-0099'
+                },
+                {
+                    date: '2026-03-28',
+                    title: 'メジカルビュー社『エビぎゅう 循環器診療のエビデンスをぎゅうっとまとめました』に分担執筆として参加しました',
+                    link: 'https://www.medicalview.co.jp/catalog/ISBN978-4-7583-2434-2.html'
+                },
+                {
                     date: '2026-03-29',
                     title: 'Circulation: Cardiovascular Interventions に論文が掲載されました（J-PVAD：心原性ショックにおけるmicroaxial flow pump管理での出血・虚血性合併症と予後）',
                     link: 'https://pubmed.ncbi.nlm.nih.gov/41904791/'
@@ -233,6 +305,18 @@ export const dictionaries = {
         books: {
             title: 'Books',
             items: [
+                {
+                    year: '2026',
+                    title: '今日から実践！ 心不全地域連携ハンドブック',
+                    publisher: '中外医学社',
+                    link: 'https://chugaiigaku.jp/np/isbn/9784498136922/'
+                },
+                {
+                    year: '2026',
+                    title: 'エビぎゅう 循環器診療のエビデンスをぎゅうっとまとめました',
+                    publisher: 'メジカルビュー社',
+                    link: 'https://www.medicalview.co.jp/catalog/ISBN978-4-7583-2434-2.html'
+                },
                 {
                     year: '2026',
                     title: '内科レジデントマニュアル 第10版',

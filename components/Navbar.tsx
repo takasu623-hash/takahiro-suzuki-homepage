@@ -7,9 +7,9 @@ import './Navbar.css';
 
 export default function Navbar({ lang }: { lang: string }) {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
   const dict = dictionaries[lang as Locale].nav;
   const currentLang = lang as Locale;
-  const targetLang = currentLang === 'en' ? 'ja' : 'en';
 
   useEffect(() => {
     const handleScroll = () => {
@@ -25,14 +25,26 @@ export default function Navbar({ lang }: { lang: string }) {
         <Link href={`/${lang}`} className="nav-logo">
           T. Suzuki
         </Link>
-        <div className="nav-links">
-          <a href="#about" className="nav-link">{dict.about}</a>
-          <a href="#career" className="nav-link">{dict.career}</a>
-          <a href="#research" className="nav-link">{dict.research}</a>
-          <a href="#presentations" className="nav-link">{dict.presentations}</a>
-          <Link href={`/${targetLang}`} className="lang-toggle btn btn-outline" style={{ marginLeft: '1rem', padding: '0.4rem 0.8rem' }}>
-            {currentLang === 'en' ? '日本語' : 'EN'}
-          </Link>
+        <div className="nav-right">
+          <div className={`nav-links ${menuOpen ? 'active' : ''}`}>
+            <a href="#about" className="nav-link" onClick={() => setMenuOpen(false)}>{dict.about}</a>
+            <a href="#career" className="nav-link" onClick={() => setMenuOpen(false)}>{dict.career}</a>
+            <a href="#research" className="nav-link" onClick={() => setMenuOpen(false)}>{dict.research}</a>
+            <a href="#presentations" className="nav-link" onClick={() => setMenuOpen(false)}>{dict.presentations}</a>
+          </div>
+          <div className="lang-switch" aria-label="Language">
+            <Link href="/ja" className={`lang-option ${currentLang === 'ja' ? 'active' : ''}`} aria-current={currentLang === 'ja' ? 'page' : undefined}>日本語</Link>
+            <span className="lang-divider">|</span>
+            <Link href="/en" className={`lang-option ${currentLang === 'en' ? 'active' : ''}`} aria-current={currentLang === 'en' ? 'page' : undefined}>English</Link>
+          </div>
+          <button
+            className="mobile-menu-btn"
+            aria-label="Menu"
+            aria-expanded={menuOpen}
+            onClick={() => setMenuOpen(!menuOpen)}
+          >
+            <span className={`hamburger ${menuOpen ? 'open' : ''}`}></span>
+          </button>
         </div>
       </div>
     </nav>

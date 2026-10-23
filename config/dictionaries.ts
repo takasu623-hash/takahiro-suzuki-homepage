@@ -21,6 +21,11 @@ export const dictionaries = {
                     link: 'https://chugaiigaku.jp/np/isbn/9784498136922/'
                 },
                 {
+                    date: '2026-10-09',
+                    title: 'Received the Best Award of the 4th JCS Cardiovascular Diversity Research Award from the Japanese Circulation Society',
+                    link: 'https://www.j-circ.or.jp/'
+                },
+                {
                     date: '2026-10-11',
                     title: 'Received the Young Investigator Award (First Prize) at the 48th Annual Scientific Meeting of the Japanese Society of Hypertension',
                     link: 'https://www.congre.co.jp/48jsh2026/yia/index.html'
@@ -87,6 +92,12 @@ export const dictionaries = {
                     title: '内科レジデントマニュアル 第10版 (Internal Medicine Resident Manual, 10th Ed.)',
                     publisher: '医学書院 (Igaku-Shoin)',
                     link: 'https://www.igaku-shoin.co.jp/book/detail/114713'
+                },
+                {
+                    year: '2026',
+                    title: '外来処方ドリル (Outpatient Prescription Drill) — Chapter: Prescriptions for cardiovascular diseases',
+                    publisher: '羊土社 (Yodosha)',
+                    link: 'https://www.yodosha.co.jp/yodobook/book/9784758124478/'
                 },
                 {
                     year: '2025',
@@ -256,6 +267,11 @@ export const dictionaries = {
                     link: 'https://chugaiigaku.jp/np/isbn/9784498136922/'
                 },
                 {
+                    date: '2026-10-09',
+                    title: '日本循環器学会 第4回循環器ダイバーシティ研究奨励賞 最優秀賞を受賞しました',
+                    link: 'https://www.j-circ.or.jp/'
+                },
+                {
                     date: '2026-10-11',
                     title: '第48回日本高血圧学会総会で Young Investigator Award 最優秀賞を受賞しました',
                     link: 'https://www.congre.co.jp/48jsh2026/yia/index.html'
@@ -322,6 +338,12 @@ export const dictionaries = {
                     title: '内科レジデントマニュアル 第10版',
                     publisher: '医学書院',
                     link: 'https://www.igaku-shoin.co.jp/book/detail/114713'
+                },
+                {
+                    year: '2026',
+                    title: '外来処方ドリル（第1章-7「循環器疾患への処方箋」分担執筆）',
+                    publisher: '羊土社',
+                    link: 'https://www.yodosha.co.jp/yodobook/book/9784758124478/'
                 },
                 {
                     year: '2025',

@@ -58,15 +58,6 @@ export const papersData = {
                 description: "Analyzed the J-PVAD registry to characterize how bleeding and ischemic complications shape prognosis among AMI-related cardiogenic shock patients managed with microaxial flow pump support."
             },
             {
-                title: "Subsequent Thromboembolic and Bleeding Events in Patients With Major Bleeding While on Factor Xa Inhibitors",
-                journal: "Circ Rep",
-                year: "2026",
-                authors: "Suzuki T, Yasaka M, Wada F, Ide R, Suzuki K, Kohsaka S",
-                pmid: "42577456",
-                link: "https://pubmed.ncbi.nlm.nih.gov/42577456/",
-                description: "Characterized subsequent thromboembolic and bleeding events among patients who experienced major bleeding while receiving factor Xa inhibitors."
-            },
-            {
                 title: "Prognostic Implications of Hemoglobin Drop With and Without Overt Bleeding After Percutaneous Coronary Intervention",
                 journal: "JACC Asia",
                 year: "2025",

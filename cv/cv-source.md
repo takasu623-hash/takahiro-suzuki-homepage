@@ -316,9 +316,10 @@ author: "Takahiro Suzuki, M.D., M.P.H."
 7. [Suzuki T]{.cv-name}. Hypertension: topics to utilize in daily clinical practice of hypertension — digital hypertension and digit bias. *Medical Practice*. 2024;41(4):540–544. [in Japanese]
 8. [Suzuki T]{.cv-name}, Mizuno A. The role of social determinants of health (SDOH). *Cardiology Review 2025–2026*. Sougou Igakusha, 2025.
 9. [Suzuki T]{.cv-name}, Mizuno A. Prescriptions for cardiovascular diseases. In: Kita K, ed. *Outpatient Prescription Drill*. Yodosha, February 2026, Chapter 1-7. [in Japanese]
-10. [Suzuki T]{.cv-name}. Target daily step count for cardiovascular prevention; Alcohol and heart disease: is light drinking good or bad? In: Asano T, ed. *Ebi-gyu: Evidence in Cardiovascular Practice, Compactly Summarized*. Medical View, March 2026, sections 8-7 and 8-8. [in Japanese]
-11. [Suzuki T]{.cv-name}, Mizuno A. Sex differences in cardiovascular disease from an epidemiological perspective: Japan versus the world. *Heart View*. 2026;30(9):898–904. Medical View. [in Japanese]
-12. [Suzuki T]{.cv-name}, Mizuno A. Is health determined by the environment? Social determinants of health. In: Kinugasa Y, ed. *Practical Handbook of Regional Heart Failure Care*. Chugai-Igakusha, October 2026, Chapter II-8. [in Japanese]
+10. [Suzuki T]{.cv-name} (contributor). *Internal Medicine Resident Manual*, 10th edition. Igaku-Shoin, 2026. [in Japanese]
+11. [Suzuki T]{.cv-name}. Target daily step count for cardiovascular prevention; Alcohol and heart disease: is light drinking good or bad? In: Asano T, ed. *Ebi-gyu: Evidence in Cardiovascular Practice, Compactly Summarized*. Medical View, March 2026, sections 8-7 and 8-8. [in Japanese]
+12. [Suzuki T]{.cv-name}, Mizuno A. Sex differences in cardiovascular disease from an epidemiological perspective: Japan versus the world. *Heart View*. 2026;30(9):898–904. Medical View. [in Japanese]
+13. [Suzuki T]{.cv-name}, Mizuno A. Is health determined by the environment? Social determinants of health. In: Kinugasa Y, ed. *Practical Handbook of Regional Heart Failure Care*. Chugai-Igakusha, October 2026, Chapter II-8. [in Japanese]
 
 ---
 

@@ -177,7 +177,7 @@ export const dictionaries = {
                     institution: 'Keio University',
                 },
                 {
-                    year: '2024 - Present',
+                    year: '2024 - Present (PhD expected March 2027)',
                     title: 'PhD Candidate, Department of Public Health',
                     institution: 'Institute of Science Tokyo (formerly TMDU)',
                 },
@@ -423,7 +423,7 @@ export const dictionaries = {
                     institution: '慶應義塾大学',
                 },
                 {
-                    year: '2024 - 現在',
+                    year: '2024 - 現在（2027年3月 博士号取得予定）',
                     title: 'PhD Candidate, 公衆衛生分野',
                     institution: '東京科学大学（旧 東京医科歯科大学）',
                 },

@@ -26,7 +26,7 @@ author: "Takahiro Suzuki, M.D., M.P.H."
 - **Affiliations:**
     - Educational Chief / Clinical Assistant Professor / Clinical Staff, Department of Cardiovascular Medicine, St. Luke's International Hospital
     - Joint Researcher, Department of Cardiology, Keio University
-    - PhD Candidate, Department of Public Health, Institute of Science Tokyo
+    - PhD Candidate, Department of Public Health, Institute of Science Tokyo (PhD expected March 2027)
 - **Skills:** Clinical cardiology, Interventional cardiology, Intensive care medicine, General internal medicine; medical research, medical writing, medical statistics (R)
 
 ---
@@ -37,7 +37,7 @@ author: "Takahiro Suzuki, M.D., M.P.H."
 |---|---|---|---|
 | 2010–2016 | M.D. | Medicine | Institute of Science Tokyo |
 | 2021–2023 | M.P.H. | Public Health | Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, USA |
-| 2024– | Ph.D. (candidate) | Medicine | Institute of Science Tokyo |
+| 2024–2027 (expected) | Ph.D. (candidate; degree expected March 2027) | Medicine (Public Health) | Institute of Science Tokyo |
 
 ---
 
@@ -51,7 +51,7 @@ author: "Takahiro Suzuki, M.D., M.P.H."
 | 2020–2022 | Clinical Fellow | Department of Cardiovascular Medicine | St. Luke's International Hospital, Tokyo, Japan |
 | 2023– | Educational Chief / Clinical Assistant Professor / Clinical Staff | Department of Cardiovascular Medicine | St. Luke's International Hospital, Tokyo, Japan |
 | 2023– | Joint Researcher | Department of Cardiology | Keio University, Tokyo, Japan |
-| 2024– | PhD Candidate | Department of Public Health | Institute of Science Tokyo, Tokyo, Japan |
+| 2024– | PhD Candidate (degree expected March 2027) | Department of Public Health | Institute of Science Tokyo, Tokyo, Japan |
 
 ---
 

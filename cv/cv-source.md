@@ -129,6 +129,8 @@ author: "Takahiro Suzuki, M.D., M.P.H."
 
 2. [Suzuki T]{.cv-name}, Shiraishi Y, Kohsaka S, Yoneoka D, Ueda I, Ohata T, Numasawa Y, Matsumura K, Shimoji K, Sawano M, Ieda M. Nonfatal adverse events and risk for subsequent mortality in patients undergoing percutaneous coronary intervention. *JACC Cardiovasc Interv*. 2026. doi:10.1016/j.jcin.2026.02.010
 
+3. [Suzuki T]{.cv-name}, Yasaka M, Wada F, Ide R, Suzuki K, Kohsaka S. Subsequent thromboembolic and bleeding events in patients with major bleeding while on factor Xa inhibitors. *Circ Rep*. 2026;8(8):1370–1372. doi:10.1253/circrep.CR-26-0099
+
 ### 2025
 
 3. [Suzuki T]{.cv-name}, Fukui S, Yoneoka D, Aoki J, Fujiwara T. Blood pressure after changes in light-to-moderate alcohol consumption in women and men: longitudinal Japanese annual checkup analysis. *J Am Coll Cardiol*. 2025;86(21):2031–2044.

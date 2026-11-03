@@ -25,11 +25,14 @@
 
 .nav-logo {
     font-family: var(--font-heading);
-    font-size: 1.3rem;
-    font-weight: 700;
+    font-size: 1.4rem;
+    font-weight: 600;
     color: var(--color-on-dark);
     text-decoration: none;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.01em;
+    padding-left: 0.9rem;
+    border-left: 3px solid var(--color-accent);
+    line-height: 1.1;
 }
 
 .nav-logo:hover,
@@ -63,12 +66,12 @@
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    background-color: var(--color-gold);
+    background-color: var(--color-accent);
     transition: width var(--transition-normal);
 }
 
 .nav-link:hover {
-    color: var(--color-gold);
+    color: var(--color-accent);
 }
 
 .nav-link:hover::after {
@@ -104,11 +107,11 @@
 
 .lang-option:hover {
     opacity: 1;
-    color: var(--color-gold);
+    color: var(--color-accent);
 }
 
 .lang-option.active {
-    color: var(--color-gold);
+    color: var(--color-accent);
     font-weight: 700;
     opacity: 1;
 }

@@ -49,7 +49,7 @@
 
 .news-date::after {
     content: '\25CF  NEWS';
-    color: var(--color-gold);
+    color: var(--color-accent-hover);
     margin-left: 0.6rem;
     letter-spacing: 0.12em;
 }
@@ -82,8 +82,8 @@
     gap: 6px;
     margin-top: var(--spacing-xl);
     padding: 0.7rem 1.4rem;
-    background-color: var(--color-gold);
-    border: 2px solid var(--color-gold);
+    background-color: transparent;
+    border: 2px solid var(--color-primary);
     border-radius: var(--radius-md);
     color: var(--color-primary);
     font-size: 0.8rem;
@@ -96,9 +96,9 @@
 }
 
 .news-toggle:hover {
-    background-color: var(--color-gold-hover);
-    border-color: var(--color-gold-hover);
-    color: var(--color-primary);
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    color: #FFFFFF;
     transform: translateY(-2px);
 }
 

@@ -1,6 +1,6 @@
 .books-section {
     padding: var(--spacing-section) 0;
-    background-color: var(--color-primary);
+    background-color: var(--color-accent);
 }
 
 .books-container {
@@ -36,7 +36,7 @@
     transform: translateY(-4px);
     box-shadow: var(--shadow-md);
     background-color: #fff;
-    border-color: var(--color-gold);
+    border-color: var(--color-primary);
 }
 
 .book-meta {
@@ -99,11 +99,11 @@
     transform: translateX(2px) translateY(-2px);
 }
 .books-section .section-title {
-    color: var(--color-on-dark);
+    color: var(--color-primary);
 }
 
 .books-section .section-title::before {
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: var(--color-primary);
 }
 
 .books-section .book-title,

@@ -2,11 +2,10 @@
     padding: calc(var(--spacing-section) + 72px) 0 var(--spacing-section);
     background-color: var(--color-primary);
     background-image:
-        radial-gradient(circle at 85% 20%, rgba(104, 172, 229, 0.22) 0, rgba(104, 172, 229, 0) 38%),
-        radial-gradient(circle at 10% 90%, rgba(104, 172, 229, 0.14) 0, rgba(104, 172, 229, 0) 40%),
-        linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
-    background-size: auto, auto, 48px 48px, 48px 48px;
+        linear-gradient(115deg, #002D72 0%, #002D72 55%, #1F4E9A 100%),
+        radial-gradient(circle at 85% 20%, rgba(104, 172, 229, 0.35) 0, rgba(104, 172, 229, 0) 40%);
+    background-blend-mode: normal, screen;
+    background-size: auto;
     min-height: clamp(640px, 90vh, 900px);
     display: flex;
     align-items: center;
@@ -31,16 +30,18 @@
 }
 
 .hero-title {
-    font-size: clamp(2.75rem, 5vw, 4.25rem);
+    font-size: clamp(2.75rem, 5.2vw, 4.5rem);
     margin-bottom: var(--spacing-sm);
     color: var(--color-on-dark);
-    font-weight: 700;
+    font-weight: 600;
+    font-family: var(--font-heading);
 }
 
 .hero-subtitle {
-    font-size: clamp(1.25rem, 2.4vw, 1.6rem);
+    font-size: clamp(1.2rem, 2.2vw, 1.5rem);
     color: var(--color-accent);
     font-weight: 500;
+    font-family: var(--font-sans);
     margin-bottom: var(--spacing-md);
 }
 
@@ -49,7 +50,7 @@
     font-weight: 500;
     color: var(--color-on-dark);
     margin-bottom: var(--spacing-md);
-    border-left: 3px solid var(--color-gold);
+    border-left: 3px solid var(--color-accent);
     padding-left: var(--spacing-md);
     line-height: 1.5;
 }
@@ -109,7 +110,7 @@
 }
 
 .hero-social-link:hover {
-    color: var(--color-gold);
+    color: var(--color-accent);
 }
 
 /* Visual Side */
@@ -124,7 +125,7 @@
     position: absolute;
     width: 360px;
     height: 440px;
-    background-image: radial-gradient(rgba(241, 196, 0, 0.9) 1.5px, transparent 1.6px);
+    background-image: radial-gradient(rgba(104, 172, 229, 0.9) 1.5px, transparent 1.6px);
     background-size: 14px 14px;
     transform: translate(-28px, 28px);
     z-index: 0;
@@ -161,7 +162,7 @@
 
     .hero-affiliation {
         border-left: none;
-        border-top: 3px solid var(--color-gold);
+        border-top: 3px solid var(--color-accent);
         padding-left: 0;
         padding-top: var(--spacing-md);
         display: inline-block;

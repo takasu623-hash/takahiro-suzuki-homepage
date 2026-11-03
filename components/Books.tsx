@@ -5,7 +5,7 @@ export default function Books({ lang }: { lang: string }) {
     const dict = dictionaries[lang as Locale].books;
 
     return (
-        <section id="books" className="books-section band-dark">
+        <section id="books" className="books-section band-spirit">
             <div className="container books-container">
                 <h2 className="section-title">{dict.title}</h2>
                 <div className="books-grid">

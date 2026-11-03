@@ -48,7 +48,7 @@
     left: 0;
     width: 100%;
     height: 3px;
-    background-color: var(--color-gold);
+    background-color: var(--color-accent);
     border-radius: var(--radius-sm) var(--radius-sm) 0 0;
 }
 
@@ -145,7 +145,7 @@
 }
 
 .presentation-card-link:hover {
-    border-left-color: var(--color-gold);
+    border-left-color: var(--color-accent);
 }
 
 .presentation-link-hint {

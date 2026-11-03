@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Archivo, Noto_Sans_JP, Geist_Mono } from "next/font/google";
+import { Archivo, Source_Serif_4, Noto_Sans_JP, Noto_Serif_JP, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
@@ -7,6 +7,18 @@ const archivo = Archivo({
   variable: "--font-archivo",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
+});
+
+const sourceSerif = Source_Serif_4({
+  variable: "--font-source-serif",
+  subsets: ["latin"],
+  weight: ["400", "600", "700"],
+});
+
+const notoSerifJP = Noto_Serif_JP({
+  variable: "--font-noto-serif-jp",
+  subsets: ["latin"],
+  weight: ["500", "700"],
 });
 
 const notoSansJP = Noto_Sans_JP({
@@ -60,7 +72,7 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body
-        className={`${archivo.variable} ${notoSansJP.variable} ${geistMono.variable} antialiased`}
+        className={`${archivo.variable} ${sourceSerif.variable} ${notoSansJP.variable} ${notoSerifJP.variable} ${geistMono.variable} antialiased`}
       >
         {children}
         <Analytics />

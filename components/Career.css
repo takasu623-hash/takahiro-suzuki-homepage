@@ -1,15 +1,15 @@
 .career-section {
-    padding: var(--spacing-xl) 0;
+    padding: var(--spacing-section) 0;
     background-color: var(--color-background);
 }
 
 .career-chart {
-    max-width: 900px;
-    margin: 0 auto;
+    max-width: 1000px;
+    margin: 0;
     display: flex;
     flex-direction: column;
-    border-top: 2px solid var(--color-border);
-    border-bottom: 2px solid var(--color-border);
+    border-top: 2px solid var(--color-primary);
+    border-bottom: 2px solid var(--color-primary);
 }
 
 .career-row {
@@ -39,9 +39,9 @@
 .career-year {
     font-weight: 700;
     color: var(--color-primary);
-    font-size: 1.05rem;
-    font-family: var(--font-mono), monospace;
-    letter-spacing: -0.02em;
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
 }
 
 .career-details-cell {

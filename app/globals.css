@@ -1,21 +1,28 @@
 @import "tailwindcss";
 
 :root {
-  /* Color Palette - Premium Medical/Trust Theme */
-  --color-primary: #0A2540;      /* Deep Navy */
-  --color-primary-light: #184274; /* Rich Blue */
-  --color-accent: #00D4FF;       /* Vibrant Cyan */
-  --color-accent-hover: #00B1D2;
+  /* Color palette - Johns Hopkins blue family */
+  --color-primary: #002D72;        /* Heritage Blue */
+  --color-primary-deep: #001F4F;   /* darker navy for footer / contrast */
+  --color-primary-light: #418FDE;  /* Medium blue (links) */
+  --color-accent: #68ACE5;         /* Spirit Blue */
+  --color-accent-hover: #418FDE;
+  --color-gold: #F1C400;           /* Gold - call-to-action buttons */
+  --color-gold-hover: #FFD53D;
   --color-background: #FFFFFF;
-  --color-surface: #F8FAFC;      /* Light Gray-Blue */
-  --color-text: #1E293B;         /* Slate */
-  --color-text-muted: #64748B;
-  --color-border: #E2E8F0;
-  
+  --color-surface: #F3F7FC;        /* very light blue-grey */
+  --color-background-alt: #E3EEF9; /* Spirit Blue tint - section bands */
+  --color-text: #1A2238;
+  --color-text-muted: #5B6B85;
+  --color-border: #D6E0EC;
+  --color-on-dark: #FFFFFF;
+  --color-on-dark-muted: rgba(255, 255, 255, 0.78);
+
   /* Typography */
-  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
-  --font-heading: 'Outfit', system-ui, -apple-system, sans-serif;
-  
+  --font-sans: var(--font-archivo), 'Noto Sans JP', system-ui, -apple-system, sans-serif;
+  --font-heading: var(--font-archivo), 'Noto Sans JP', system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+
   /* Spacing */
   --spacing-xs: 0.25rem;
   --spacing-sm: 0.5rem;
@@ -23,18 +30,18 @@
   --spacing-lg: 1.5rem;
   --spacing-xl: 2rem;
   --spacing-2xl: 3rem;
-  --spacing-section: 6rem;
-  
+  --spacing-section: 5rem;
+
   /* Layout */
   --max-width: 1200px;
-  --radius-sm: 4px;
-  --radius-md: 8px;
-  --radius-lg: 16px;
-  
+  --radius-sm: 3px;
+  --radius-md: 4px;
+  --radius-lg: 6px;
+
   /* Shadows & Effects */
-  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 1px 2px 0 rgba(0, 45, 114, 0.06);
+  --shadow-md: 0 6px 16px -4px rgba(0, 45, 114, 0.16);
+  --shadow-lg: 0 18px 36px -12px rgba(0, 45, 114, 0.28);
   --transition-fast: 150ms ease-in-out;
   --transition-normal: 300ms ease-in-out;
 }
@@ -52,14 +59,15 @@ html, body {
   font-family: var(--font-sans);
   color: var(--color-text);
   background-color: var(--color-background);
-  line-height: 1.6;
+  line-height: 1.65;
   scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
   color: var(--color-primary);
-  line-height: 1.2;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
 }
 
 a {
@@ -69,7 +77,7 @@ a {
 }
 
 a:hover {
-  color: var(--color-accent);
+  color: var(--color-primary);
 }
 
 /* Utility Classes */
@@ -80,30 +88,139 @@ a:hover {
   padding: 0 var(--spacing-xl);
 }
 
+/* Section heading: thin rule above, large bold left-aligned title (EJCTS-style) */
+.section-header {
+  margin-bottom: var(--spacing-xl);
+}
+
 .section-title {
-  font-size: 2.5rem;
+  font-size: clamp(2rem, 4vw, 3rem);
   font-weight: 700;
   margin-bottom: var(--spacing-md);
-  text-align: center;
+  text-align: left;
   position: relative;
+  padding-top: var(--spacing-lg);
+}
+
+.section-title::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-border);
 }
 
 .section-title::after {
-  content: '';
-  display: block;
-  width: 60px;
-  height: 4px;
-  background-color: var(--color-accent);
-  margin: var(--spacing-sm) auto 0;
-  border-radius: var(--radius-sm);
+  content: none;
 }
 
 .section-subtitle {
-  text-align: center;
+  text-align: left;
   color: var(--color-text-muted);
   font-size: 1.1rem;
-  max-width: 600px;
-  margin: 0 auto var(--spacing-2xl);
+  max-width: 720px;
+  margin: 0 0 var(--spacing-2xl);
+}
+
+/* Dark (navy) bands */
+.band-dark {
+  background-color: var(--color-primary);
+  color: var(--color-on-dark);
+}
+
+.band-dark .section-title,
+.band-dark h2,
+.band-dark h3 {
+  color: var(--color-on-dark);
+}
+
+.band-dark .section-title::before {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.band-dark .section-subtitle {
+  color: var(--color-on-dark-muted);
+}
+
+/* Eyebrow label with the EJCTS-style arrow */
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-gold);
+}
+
+.eyebrow::before {
+  content: '\2198';
+  font-size: 1rem;
+  line-height: 1;
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.4rem;
+  border-radius: var(--radius-md);
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: all var(--transition-fast);
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.btn::after {
+  content: '\2197';
+  font-size: 0.95rem;
+  line-height: 1;
+}
+
+.btn-primary {
+  background-color: var(--color-gold);
+  color: var(--color-primary);
+  border-color: var(--color-gold);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-gold-hover);
+  border-color: var(--color-gold-hover);
+  color: var(--color-primary);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.btn-outline:hover {
+  background-color: var(--color-primary);
+  color: var(--color-on-dark);
+  transform: translateY(-2px);
+}
+
+.band-dark .btn-outline {
+  color: var(--color-on-dark);
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.band-dark .btn-outline:hover {
+  background-color: var(--color-on-dark);
+  color: var(--color-primary);
+  border-color: var(--color-on-dark);
 }
 
 /* Animations */

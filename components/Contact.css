@@ -1,6 +1,6 @@
 .contact-section {
-    padding: var(--spacing-2xl) 0;
-    background-color: var(--color-background);
+    padding: var(--spacing-section) 0;
+    background-color: var(--color-background-alt);
 }
 
 .contact-container {
@@ -11,9 +11,9 @@
 .contact-form-wrapper {
     background: #ffffff;
     padding: var(--spacing-xl);
-    border-radius: 16px;
-    box-shadow: var(--shadow-md);
-    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 0;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid transparent;
 }
 
 .contact-form {
@@ -38,7 +38,7 @@
 .form-group textarea {
     padding: 14px;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    border-radius: var(--radius-sm);
     font-size: 1rem;
     font-family: inherit;
     transition: all var(--transition-fast);
@@ -50,7 +50,7 @@
     outline: none;
     border-color: var(--color-primary);
     background-color: #ffffff;
-    box-shadow: 0 0 0 3px rgba(21, 101, 192, 0.1);
+    box-shadow: 0 0 0 3px rgba(104, 172, 229, 0.3);
 }
 
 .submit-btn {

@@ -6,13 +6,14 @@
     padding: var(--spacing-md) 0;
     transition: all var(--transition-normal);
     z-index: 1000;
-    background-color: transparent;
+    background-color: var(--color-primary);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .navbar.scrolled {
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(0, 45, 114, 0.96);
     backdrop-filter: blur(10px);
-    box-shadow: var(--shadow-sm);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
     padding: var(--spacing-sm) 0;
 }
 
@@ -24,15 +25,16 @@
 
 .nav-logo {
     font-family: var(--font-heading);
-    font-size: 1.25rem;
+    font-size: 1.3rem;
     font-weight: 700;
-    color: var(--color-primary);
+    color: var(--color-on-dark);
     text-decoration: none;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.02em;
 }
 
+.nav-logo:hover,
 .navbar.scrolled .nav-logo {
-    color: var(--color-primary);
+    color: var(--color-on-dark);
 }
 
 .nav-links {
@@ -42,14 +44,15 @@
 }
 
 .nav-link {
-    color: var(--color-text);
-    font-weight: 500;
-    font-size: 0.95rem;
+    color: var(--color-on-dark);
+    font-weight: 600;
+    font-size: 0.78rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
     text-decoration: none;
     position: relative;
-    padding: 0.5rem 1rem;
-    border-radius: 6px;
-    transition: color var(--transition-fast), background-color var(--transition-fast);
+    padding: 0.5rem 0.9rem;
+    transition: color var(--transition-fast);
 }
 
 .nav-link::after {
@@ -60,17 +63,16 @@
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    background-color: var(--color-accent);
+    background-color: var(--color-gold);
     transition: width var(--transition-normal);
 }
 
 .nav-link:hover {
-    color: var(--color-primary);
-    background-color: rgba(10, 37, 64, 0.04);
+    color: var(--color-gold);
 }
 
 .nav-link:hover::after {
-    width: calc(100% - 2rem);
+    width: calc(100% - 1.8rem);
 }
 
 .nav-right {
@@ -85,15 +87,15 @@
     gap: 0.35rem;
     margin-left: 0.75rem;
     padding: 0.3rem 0.7rem;
-    border: 1px solid rgba(10, 37, 64, 0.25);
-    border-radius: 999px;
-    background-color: rgba(255, 255, 255, 0.85);
-    font-size: 0.85rem;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: var(--radius-sm);
+    background-color: transparent;
+    font-size: 0.8rem;
     white-space: nowrap;
 }
 
 .lang-option {
-    color: var(--color-text);
+    color: var(--color-on-dark);
     text-decoration: none;
     opacity: 0.6;
     font-weight: 500;
@@ -102,16 +104,17 @@
 
 .lang-option:hover {
     opacity: 1;
+    color: var(--color-gold);
 }
 
 .lang-option.active {
-    color: var(--color-primary);
+    color: var(--color-gold);
     font-weight: 700;
     opacity: 1;
 }
 
 .lang-divider {
-    color: var(--color-text);
+    color: var(--color-on-dark);
     opacity: 0.4;
 }
 
@@ -127,7 +130,7 @@
     display: block;
     width: 24px;
     height: 2px;
-    background-color: var(--color-primary);
+    background-color: var(--color-on-dark);
     position: relative;
     transition: background-color var(--transition-fast);
 }
@@ -138,7 +141,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: var(--color-primary);
+    background-color: var(--color-on-dark);
     transition: transform var(--transition-normal);
 }
 
@@ -172,7 +175,7 @@
         top: 100%;
         left: 0;
         width: 100%;
-        background-color: var(--color-background);
+        background-color: var(--color-primary);
         flex-direction: column;
         align-items: center;
         padding: var(--spacing-lg) 0;

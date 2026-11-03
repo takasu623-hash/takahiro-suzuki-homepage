@@ -5,7 +5,7 @@ export default function Footer({ lang }: { lang: string }) {
     const dict = dictionaries[lang as Locale].footer;
 
     return (
-        <footer className="footer">
+        <footer className="footer band-dark">
             <div className="container footer-container">
                 <div className="footer-brand">
                     <h2 className="footer-title">{dict.title}</h2>

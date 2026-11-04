@@ -258,7 +258,7 @@ export const dictionaries = {
             title: 'News & Announcements',
             showAll: 'すべてのお知らせを見る',
             allTitle: 'お知らせ一覧',
-            allSubtitle: 'すべてのお知らせを時系列で表示',
+            allSubtitle: 'これまでのお知らせ',
             backToHome: '← トップページに戻る',
             items: [
                 {
@@ -393,14 +393,14 @@ export const dictionaries = {
                 { label: 'Social determinant of health', link: '#theme-sdoh' },
                 { label: '循環器集中治療', link: '#theme-acute' }
             ],
-            description: '循環器診療に従事するとともに、心血管疾患の予防や、介入的治療の周術期合併症に対するQuality Metricsの取り組みに関する臨床研究を行っています。社会における健康格差や公衆衛生の観点からもアプローチを模索しています。',
+            description: '聖路加国際病院で循環器内科の診療を行いながら、心血管疾患の予防、PCI周術期合併症の質指標（Quality Metrics）、健康の社会的決定要因（SDOH）に関する臨床研究を行っています。',
             btnResearch: 'View Research',
             btnCareer: 'Career Timeline',
             btnCV: 'CV ダウンロード',
         },
         career: {
             title: 'Career',
-            subtitle: '専門医としての歩みと経歴',
+            subtitle: '経歴',
             items: [
                 {
                     year: '2010 - 2016',
@@ -431,8 +431,8 @@ export const dictionaries = {
         },
         research: {
             title: 'Research & Publications',
-            subtitle: '心血管疾患の予防、介入的治療の周術期合併症に対するQuality Metricsの取り組み、また社会格差や公衆衛生に関する臨床研究を行っています。',
-            storyline: '私の研究は、心血管疾患の予防から社会への還元まで、一連の連続したプロセスを網羅しています。まず予防医学・疫学（Preventive Cardiology）から始まり、ビッグデータを用いた縦断的解析などを通じて疾患の本質に迫ります。次に、実際に疾患が発症した際には急性期心血管治療・インターベンション（Acute Cardiovascular Care & Intervention）へと焦点を移し、一刻を争う重症病態における予後改善を目指します。そして最後に、個人の診療の枠組みを超え、公衆衛生・健康の社会的決定要因（Public Health & SDOH）の観点から、これら健康状態を根本から形作る社会構造や格差の問題にアプローチします。個人の予防から救急・集中治療、ひいては社会全体のウェルビーイングの向上を目指す、この包括的かつ多角的な視点こそが私の研究全体の原動力です。',
+            subtitle: '心血管疾患の予防、PCI周術期合併症の質指標、健康格差や公衆衛生に関する臨床研究を行っています。',
+            storyline: '研究テーマは、予防医学・疫学、急性期循環器診療、公衆衛生・健康の社会的決定要因（SDOH）の3つです。健診データを用いた疫学研究では発症前のリスクを、急性期の研究ではPCI周術期合併症や心原性ショックなど重症病態の予後改善を扱っています。あわせて、健康格差や社会構造が健康に与える影響にも取り組んでいます。予防から急性期治療、そして社会まで、循環器疾患をひと続きの流れとしてとらえることを心がけています。',
             tab1st: '1st Author',
             tabCo: 'Co-Author',
             themes: {
@@ -450,21 +450,21 @@ export const dictionaries = {
                 },
                 quality: {
                     title: 'Quality Metrics and Behavioral Economics',
-                    desc: 'ガイドラインに基づく医療の質指標（Quality Indicator）の開発、行動経済学を用いた介入（FOOTSTEPS試験など）、やテキストマイニング技術の臨床応用に関する研究。'
+                    desc: 'ガイドラインに基づく医療の質指標（Quality Indicator）の開発、行動経済学を用いた介入（FOOTSTEPS試験など）、テキストマイニングの臨床応用に関する研究。'
                 },
                 registry: {
                     title: 'National Registry Data & Epidemiological Analysis',
-                    desc: '多施設共同レジストリや全国規模のデータベースを活用し、循環器疾患の全国的な動向や最適な治療戦略の解明を目指す研究。'
+                    desc: '多施設共同レジストリや全国規模のデータベースを用いて、循環器疾患の治療の実態や治療戦略を検討する研究。'
                 },
                 others: {
                     title: '症例報告・その他',
-                    desc: '日々の臨床から得られた知見や稀な症例に関する報告、およびその他の学術的貢献についての論文。'
+                    desc: '臨床で経験した症例の報告と、上記のテーマに含まれないその他の論文。'
                 }
             }
         },
         presentations: {
             title: 'Presentations',
-            subtitle: '国際学会・国内学会での発表およびシンポジウム招待講演の一覧です。',
+            subtitle: '国際学会・国内学会での発表と招待講演の一覧です。',
             tabInternational: '国際学会',
             tabDomestic: '国内学会',
             tabInvited: '招待講演',

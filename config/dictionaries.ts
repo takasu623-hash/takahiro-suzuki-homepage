@@ -464,7 +464,7 @@ export const dictionaries = {
         },
         presentations: {
             title: 'Presentations',
-            subtitle: '国際学会・国内学会での発表と招待講演の一覧です。',
+            subtitle: '国際学会・国内学会での発表と講演の一覧です。',
             tabInternational: '国際学会',
             tabDomestic: '国内学会',
             tabInvited: '招待講演',
